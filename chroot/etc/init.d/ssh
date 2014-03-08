@@ -76,6 +76,8 @@ export PATH="${PATH:+$PATH:}/usr/sbin:/sbin"
 
 case "$1" in
   start)
+	ssh-keygen -A
+	dpkg-reconfigure openssh-server
 	check_privsep_dir
 	check_for_no_start
 	check_dev_null
