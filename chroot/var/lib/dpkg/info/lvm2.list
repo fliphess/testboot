@@ -25,7 +25,6 @@
 /usr/share/doc/lvm2/lvmetad_design.txt.gz
 /usr/share/doc/lvm2/tagging.txt.gz
 /usr/share/man
-/usr/share/man/man8
 /usr/share/man/man8/lvchange.8.gz
 /usr/share/man/man8/lvconvert.8.gz
 /usr/share/man/man8/lvcreate.8.gz
@@ -72,7 +71,6 @@
 /usr/share/man/man8/vgs.8.gz
 /usr/share/man/man8/vgscan.8.gz
 /usr/share/man/man8/vgsplit.8.gz
-/usr/share/man/man5
 /usr/share/man/man5/lvm.conf.5.gz
 /etc
 /etc/lvm

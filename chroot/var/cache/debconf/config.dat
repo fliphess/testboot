@@ -61,89 +61,6 @@ Template: debconf/priority
 Value: high
 Owners: debconf
 
-Name: exim4-base/drec
-Template: exim4-base/drec
-Owners: exim4-base
-
-Name: exim4-daemon-light/drec
-Template: exim4-daemon-light/drec
-Owners: exim4-daemon-light
-
-Name: exim4/dc_eximconfig_configtype
-Template: exim4/dc_eximconfig_configtype
-Value: local delivery only; not on a network
-Owners: exim4-config
-
-Name: exim4/dc_local_interfaces
-Template: exim4/dc_local_interfaces
-Value: 127.0.0.1 ; ::1
-Owners: exim4-config
-
-Name: exim4/dc_localdelivery
-Template: exim4/dc_localdelivery
-Value: mbox format in /var/mail/
-Owners: exim4-config
-
-Name: exim4/dc_minimaldns
-Template: exim4/dc_minimaldns
-Value: false
-Owners: exim4-config
-
-Name: exim4/dc_other_hostnames
-Template: exim4/dc_other_hostnames
-Value: bakbeestje.fliphess.com
-Owners: exim4-config
-Flags: mailname
-Variables:
- fqdn = 
-
-Name: exim4/dc_postmaster
-Template: exim4/dc_postmaster
-Value: 
-Owners: exim4-config
-
-Name: exim4/dc_readhost
-Template: exim4/dc_readhost
-Owners: exim4-config
-
-Name: exim4/dc_relay_domains
-Template: exim4/dc_relay_domains
-Owners: exim4-config
-
-Name: exim4/dc_relay_nets
-Template: exim4/dc_relay_nets
-Owners: exim4-config
-
-Name: exim4/dc_smarthost
-Template: exim4/dc_smarthost
-Owners: exim4-config
-
-Name: exim4/exim4-config-title
-Template: exim4/exim4-config-title
-Owners: exim4-config
-
-Name: exim4/hide_mailname
-Template: exim4/hide_mailname
-Owners: exim4-config
-
-Name: exim4/mailname
-Template: exim4/mailname
-Value: bakbeestje.fliphess.com
-Owners: exim4-config
-
-Name: exim4/no_config
-Template: exim4/no_config
-Owners: exim4-config
-
-Name: exim4/purge_spool
-Template: exim4/purge_spool
-Owners: exim4-base
-
-Name: exim4/use_split_config
-Template: exim4/use_split_config
-Value: false
-Owners: exim4-config
-
 Name: fontconfig/enable_bitmaps
 Template: fontconfig/enable_bitmaps
 Value: false
@@ -233,6 +150,22 @@ Name: libssl1.0.0/restart-services
 Template: libssl1.0.0/restart-services
 Owners: libssl1.0.0:amd64
 
+Name: make-ssl-cert/altname
+Template: make-ssl-cert/altname
+Owners: ssl-cert
+
+Name: make-ssl-cert/hostname
+Template: make-ssl-cert/hostname
+Owners: ssl-cert
+
+Name: make-ssl-cert/title
+Template: make-ssl-cert/title
+Owners: ssl-cert
+
+Name: make-ssl-cert/vulnerable_prng
+Template: make-ssl-cert/vulnerable_prng
+Owners: ssl-cert
+
 Name: man-db/auto-update
 Template: man-db/auto-update
 Owners: man-db
@@ -291,6 +224,103 @@ Name: mdadm/start_daemon
 Template: mdadm/start_daemon
 Value: true
 Owners: mdadm
+
+Name: postfix/bad_recipient_delimiter
+Template: postfix/bad_recipient_delimiter
+Owners: postfix
+
+Name: postfix/chattr
+Template: postfix/chattr
+Owners: postfix
+
+Name: postfix/destinations
+Template: postfix/destinations
+Owners: postfix
+
+Name: postfix/kernel_version_warning
+Template: postfix/kernel_version_warning
+Owners: postfix
+
+Name: postfix/mailbox_limit
+Template: postfix/mailbox_limit
+Owners: postfix
+
+Name: postfix/mailname
+Template: postfix/mailname
+Owners: postfix
+
+Name: postfix/main_mailer_type
+Template: postfix/main_mailer_type
+Value: No configuration
+Owners: postfix
+Flags: seen
+
+Name: postfix/mydomain_warning
+Template: postfix/mydomain_warning
+Owners: postfix
+
+Name: postfix/mynetworks
+Template: postfix/mynetworks
+Owners: postfix
+
+Name: postfix/not_configured
+Template: postfix/not_configured
+Owners: postfix
+
+Name: postfix/procmail
+Template: postfix/procmail
+Owners: postfix
+
+Name: postfix/protocols
+Template: postfix/protocols
+Owners: postfix
+
+Name: postfix/recipient_delim
+Template: postfix/recipient_delim
+Owners: postfix
+
+Name: postfix/relayhost
+Template: postfix/relayhost
+Owners: postfix
+
+Name: postfix/retry_upgrade_warning
+Template: postfix/retry_upgrade_warning
+Owners: postfix
+
+Name: postfix/rfc1035_violation
+Template: postfix/rfc1035_violation
+Owners: postfix
+
+Name: postfix/root_address
+Template: postfix/root_address
+Owners: postfix
+
+Name: postfix/sqlite_warning
+Template: postfix/sqlite_warning
+Owners: postfix
+
+Name: postfix/tlsmgr_upgrade_warning
+Template: postfix/tlsmgr_upgrade_warning
+Owners: postfix
+
+Name: resolvconf/downup-interfaces
+Template: resolvconf/downup-interfaces
+Value: 
+Owners: resolvconf
+
+Name: resolvconf/link-tail-to-original
+Template: resolvconf/link-tail-to-original
+Value: false
+Owners: resolvconf
+
+Name: resolvconf/linkify-resolvconf
+Template: resolvconf/linkify-resolvconf
+Value: true
+Owners: resolvconf
+
+Name: resolvconf/reboot-recommended-after-removal
+Template: resolvconf/reboot-recommended-after-removal
+Owners: resolvconf
 
 Name: ssh/disable_cr_auth
 Template: ssh/disable_cr_auth

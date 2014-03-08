@@ -15,7 +15,6 @@
 /usr/bin/c_rehash
 /usr/share
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/dsaparam.1ssl.gz
 /usr/share/man/man1/crl2pkcs7.1ssl.gz
 /usr/share/man/man1/crl.1ssl.gz
@@ -63,7 +62,6 @@
 /usr/share/man/man1/speed.1ssl.gz
 /usr/share/man/man7
 /usr/share/man/man7/des_modes.7ssl.gz
-/usr/share/man/man5
 /usr/share/man/man5/config.5ssl.gz
 /usr/share/man/man5/x509v3_config.5ssl.gz
 /usr/share/doc

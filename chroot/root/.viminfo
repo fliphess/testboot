@@ -19,17 +19,45 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	ii  zlib1g-dev:amd64                1:1.2.7.dfsg-13              amd64        compression library - development
+"2	LINE	0
+	ii  zlib1g:amd64                    1:1.2.7.dfsg-13              amd64        compression library - runtime
+"3	LINE	0
+	ii  xz-utils                        5.1.1alpha+20120614-2        amd64        XZ-format compression utilities
+"4	LINE	0
+	ii  xml-core                        0.13+nmu2                    all          XML infrastructure and XML catalog file support
+"5	LINE	0
+	ii  xauth                           1:1.0.7-1                    amd64        X authentication utility
+"6	LINE	0
+	ii  whiptail                        0.52.14-11.1                 amd64        Displays user-friendly dialog boxes from shell scripts
+"7	LINE	0
+	ii  wget                            1.13.4-3+deb7u1              amd64        retrieves files from the web
+"8	LINE	0
+	ii  vim-tiny                        2:7.3.547-7                  amd64        Vi IMproved - enhanced vi editor - compact version
+"9	LINE	0
+	ii  vim-runtime                     2:7.3.547-7                  all          Vi IMproved - Runtime files
 
 # File marks:
-'0  54  1  /etc/bash.bashrc
-'1  43  0  /etc/bash.bashrc
+'0  1  0  /plop
+'1  54  1  /etc/bash.bashrc
+'2  43  0  /etc/bash.bashrc
 
 # Jumplist (newest first):
+-'  1  0  /plop
+-'  54  1  /etc/bash.bashrc
+-'  1  0  /etc/bash.bashrc
+-'  43  0  /etc/bash.bashrc
 -'  54  1  /etc/bash.bashrc
 -'  1  0  /etc/bash.bashrc
 -'  43  0  /etc/bash.bashrc
 
 # History of marks within files (newest to oldest):
+
+> /plop
+	"	1	0
+	.	1	0
+	+	1	0
 
 > /etc/bash.bashrc
 	"	54	1

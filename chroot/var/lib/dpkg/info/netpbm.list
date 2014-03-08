@@ -236,13 +236,11 @@
 /usr/share/doc/netpbm/README.Security
 /usr/share/doc/netpbm/README.Debian
 /usr/share/man
-/usr/share/man/man5
 /usr/share/man/man5/ppm.5.gz
 /usr/share/man/man5/pam.5.gz
 /usr/share/man/man5/pbm.5.gz
 /usr/share/man/man5/pnm.5.gz
 /usr/share/man/man5/pgm.5.gz
-/usr/share/man/man1
 /usr/share/man/man1/pbmtoepson.1.gz
 /usr/share/man/man1/sputoppm.1.gz
 /usr/share/man/man1/pnmtofits.1.gz

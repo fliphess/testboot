@@ -14,12 +14,9 @@
 /usr/share/doc/mime-support/copyright
 /usr/share/doc/mime-support/rfc1522.txt.gz
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/run-mailcap.1.gz
-/usr/share/man/man5
 /usr/share/man/man5/mailcap.order.5.gz
 /usr/share/man/man5/mailcap.5.gz
-/usr/share/man/man8
 /usr/share/man/man8/update-mime.8.gz
 /usr/bin
 /usr/bin/run-mailcap

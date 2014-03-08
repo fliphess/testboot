@@ -1,4 +1,4 @@
-root:*:16137:0:99999:7:::
+root:$6$AGBV9G4V$FpjSIpynWc.o6xiRXsXNItPIVJiLnBvrpeZWBWZG5cCrWSCS8HOSH3/t71y87JWjZ1QWxUf3hkvngITGweDJf0:16137:0:99999:7:::
 daemon:*:16137:0:99999:7:::
 bin:*:16137:0:99999:7:::
 sys:*:16137:0:99999:7:::
@@ -21,3 +21,4 @@ ntp:*:16137:0:99999:7:::
 Debian-exim:!:16137:0:99999:7:::
 messagebus:*:16137:0:99999:7:::
 sshd:*:16137:0:99999:7:::
+postfix:*:16137:0:99999:7:::

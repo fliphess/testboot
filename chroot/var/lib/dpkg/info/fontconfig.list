@@ -13,7 +13,6 @@
 /usr/share/lintian/overrides
 /usr/share/lintian/overrides/fontconfig
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/fc-scan.1.gz
 /usr/share/man/man1/fc-query.1.gz
 /usr/share/man/man1/fc-pattern.1.gz

@@ -21,3 +21,4 @@ ntp:x:101:103::/home/ntp:/bin/false
 Debian-exim:x:102:104::/var/spool/exim4:/bin/false
 messagebus:x:103:106::/var/run/dbus:/bin/false
 sshd:x:104:65534::/var/run/sshd:/usr/sbin/nologin
+postfix:x:105:108::/var/spool/postfix:/bin/false

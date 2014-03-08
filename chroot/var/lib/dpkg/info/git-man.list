@@ -7,14 +7,12 @@
 /usr/share/doc/git-man/changelog.Debian.gz
 /usr/share/doc/git-man/changelog.gz
 /usr/share/man
-/usr/share/man/man5
 /usr/share/man/man5/gitrepository-layout.5.gz
 /usr/share/man/man5/githooks.5.gz
 /usr/share/man/man5/gitmodules.5.gz
 /usr/share/man/man5/gitattributes.5.gz
 /usr/share/man/man5/gitweb.conf.5.gz
 /usr/share/man/man5/gitignore.5.gz
-/usr/share/man/man1
 /usr/share/man/man1/git-fsck-objects.1.gz
 /usr/share/man/man1/git-format-patch.1.gz
 /usr/share/man/man1/git-request-pull.1.gz

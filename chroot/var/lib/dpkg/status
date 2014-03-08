@@ -110,93 +110,6 @@ Description: Debian configuration management system
  Debconf is a configuration management system for debian packages. Packages
  use Debconf to ask questions when they are installed.
 
-Package: exim4-config
-Status: install ok installed
-Priority: standard
-Section: mail
-Installed-Size: 1089
-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
-Architecture: all
-Source: exim4
-Version: 4.80-7
-Provides: exim4-config-2
-Depends: debconf (>= 0.5) | debconf-2.0, adduser
-Breaks: exim4-daemon-heavy (<< 4.69.1), exim4-daemon-light (<< 4.69.1)
-Conflicts: courier-mta, esmtp-run, exim, exim-tls, exim4-config, exim4-config-2, hula-mta, masqmail, mta-dummy, nullmailer, postfix, sendmail-bin, smail, ssmtp, xmail, zmailer
-Conffiles:
- /etc/email-addresses 6bea09fbb18e4676012105fa5fc726c6
- /etc/exim4/passwd.client 4b0013712a87d147c8303fa761e3c771
- /etc/exim4/conf.d/retry/00_exim4-config_header 309f5bf0859ad91e03c5402d6afe6895
- /etc/exim4/conf.d/retry/30_exim4-config d45d612ffd0ce651fab5e953d61f7524
- /etc/exim4/conf.d/main/02_exim4-config_options b864812d8161ecc44c17a36bea8e7139
- /etc/exim4/conf.d/main/03_exim4-config_tlsoptions 42f15d13b6b09faf27633dd8580ba299
- /etc/exim4/conf.d/main/01_exim4-config_listmacrosdefs 9ce2f129b98e90b1ebbfa04979b4a335
- /etc/exim4/conf.d/main/90_exim4-config_log_selector 888348df8f7bd25a0a77d3c05e8fffe3
- /etc/exim4/conf.d/acl/40_exim4-config_check_data c66ee298b4e4a3b55a07364d5e3677ed
- /etc/exim4/conf.d/acl/00_exim4-config_header e572a7b9954b20950242db2a92b35044
- /etc/exim4/conf.d/acl/20_exim4-config_local_deny_exceptions 516070107501d48a3106d755cb199e95
- /etc/exim4/conf.d/acl/30_exim4-config_check_mail 715076d5c3a365a6b38425e478fdca83
- /etc/exim4/conf.d/acl/30_exim4-config_check_rcpt 3db07878fb48195750393e55a6482510
- /etc/exim4/conf.d/rewrite/00_exim4-config_header d98361da23f34490d191bf2280728dec
- /etc/exim4/conf.d/rewrite/31_exim4-config_rewriting f232e855810d98a45ede134b369faa53
- /etc/exim4/conf.d/auth/00_exim4-config_header d0ee6ea0b33d9796573bb024ffca20d4
- /etc/exim4/conf.d/auth/30_exim4-config_examples 3baef800f00e84410f48c19ccdc2be30
- /etc/exim4/conf.d/transport/30_exim4-config_address_file fe97ddf4165820356e90c05fa744f796
- /etc/exim4/conf.d/transport/30_exim4-config_address_pipe dfcd9d71f1bb4c55ac29cccead29117e
- /etc/exim4/conf.d/transport/00_exim4-config_header 9568ac286553a79b8447c9060fed7798
- /etc/exim4/conf.d/transport/30_exim4-config_maildir_home 3edfd11b8e9a8919a9a14cbc24637d68
- /etc/exim4/conf.d/transport/30_exim4-config_remote_smtp_smarthost f50b6e21d3f150ee84d969a8e7adeb2b
- /etc/exim4/conf.d/transport/30_exim4-config_address_reply 9145131105953b0125a228ab9b7c6500
- /etc/exim4/conf.d/transport/30_exim4-config_remote_smtp 2fd8343f8f4db52acbbd39f20e40bbe5
- /etc/exim4/conf.d/transport/10_exim4-config_transport-macros 75631733cbe02d61113e323e9c2476c7
- /etc/exim4/conf.d/transport/35_exim4-config_address_directory c2a777e8db8fac4f83c2da0c95952598
- /etc/exim4/conf.d/transport/30_exim4-config_mail_spool a0f0997e4f06f38afdae0ee79759dfea
- /etc/exim4/conf.d/transport/30_exim4-config_maildrop_pipe e04895ab4184472a270ff229de8fbfd3
- /etc/exim4/conf.d/transport/30_exim4-config_procmail_pipe 82379d31ca4bf60d9667f408cb55dbbf
- /etc/exim4/conf.d/router/200_exim4-config_primary 0ef918a08fe84cc7155c7984559fb35b
- /etc/exim4/conf.d/router/700_exim4-config_procmail 28ddff8000ba5577c60eed8fabb520b4
- /etc/exim4/conf.d/router/300_exim4-config_real_local 07c6277988b181918f790ffe68c245da
- /etc/exim4/conf.d/router/850_exim4-config_lowuid 52dc089e083a3f5b0bda6af1c6bc48d7
- /etc/exim4/conf.d/router/00_exim4-config_header c0ecc395e9a49487b484126cac4d9559
- /etc/exim4/conf.d/router/150_exim4-config_hubbed_hosts 1d4a3bab1738f10f931b73ad60c7bb8d
- /etc/exim4/conf.d/router/800_exim4-config_maildrop ba547442939aa9f57b541d7320aed321
- /etc/exim4/conf.d/router/mmm_mail4root 8a16022dfc39cae4f508dfab20a8f760
- /etc/exim4/conf.d/router/900_exim4-config_local_user 20c8ced8346125170242584e575a95ff
- /etc/exim4/conf.d/router/400_exim4-config_system_aliases 7dc0cee575163f1d9761f1cf317f8299
- /etc/exim4/conf.d/router/600_exim4-config_userforward 2c63dff568fb6c984c5e4aa3d8142cd8
- /etc/exim4/conf.d/router/100_exim4-config_domain_literal 1c4d00a933df2dcc18b1d0e4a3a4bc3d
- /etc/exim4/conf.d/router/500_exim4-config_hubuser 42b9467ce27b51394e7eaf3631173728
- /etc/exim4/exim4.conf.template 4c034712e8ce4652633d0a66633d52fc
- /etc/ppp/ip-up.d/exim4 5f4b9cb6696117b19b32aaa8fa7a6de2
-Description: configuration for the Exim MTA (v4)
- Exim (v4) is a mail transport agent. exim4-config provides the configuration
- for the exim4 daemon packages. The configuration framework has been split
- off the main package to allow sites to replace the configuration scheme
- with their own without having to change the actual exim4 packages.
- .
- Sites with special configuration needs (having a lot of identically
- configured machines for example) can use this to distribute their own
- custom configuration via the packaging system, using the magic
- available with dpkg's conffile handling, without having to do local
- changes on all of these machines.
- .
- The Debian exim4 packages have their own web page,
- http://wiki.debian.org/PkgExim4. There is also a Debian-specific
- FAQ list. Information about the way the Debian packages are
- configured can be found in
- /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
- information about the way the Debian binary packages are built. The
- very extensive upstream documentation is shipped in
- /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
- configuration process in a standard setup, invoke dpkg-reconfigure
- exim4-config. There is a Debian-centered mailing list,
- pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
- questions there, and only write to the upstream exim-users mailing
- list if you are sure that your question is not Debian-specific. You
- can find the subscription web page on
- http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
-Homepage: http://www.exim.org/
-
 Package: dash
 Essential: yes
 Status: install ok installed
@@ -944,32 +857,6 @@ Description: GNU C preprocessor
  require the preprocessor but not the compiler.
 Homepage: http://gcc.gnu.org/
 
-Package: gnuplot-nox
-Status: install ok installed
-Priority: optional
-Section: math
-Installed-Size: 2314
-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Source: gnuplot
-Version: 4.6.0-8
-Depends: libc6 (>= 2.11), libcairo2 (>= 1.6.0), libedit2 (>= 2.11-20080614-1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libglib2.0-0 (>= 2.12.0), liblua5.1-0, libpango1.0-0 (>= 1.14.0)
-Recommends: groff, fonts-liberation
-Suggests: gnuplot-doc
-Conflicts: gnuplot-qt, gnuplot-x11
-Description: Command-line driven interactive plotting program. No-X package
- Gnuplot is a portable command-line driven interactive data and function
- plotting utility that supports lots of output formats, including drivers
- for many printers, (La)TeX, (x)fig, Postscript, and so on. The X11-output
- is packaged in gnuplot-x11. The QT-output is packaged in gnuplot-qt.
- .
- Data files and self-defined functions can be manipulated by the internal
- C-like language. Can perform smoothing, spline-fitting, or nonlinear fits,
- and can work with complex numbers.
- .
- This package is for working without an X server.
-Homepage: http://gnuplot.sourceforge.net/
-
 Package: procps
 Status: install ok installed
 Priority: important
@@ -1391,6 +1278,23 @@ Breaks: texinfo (<< 4.13a.dfsg.1-2)
 Description: Manage installed documentation in info format
  The install-info utility creates the index of all installed documentation
  in info format and makes it available to info readers.
+
+Package: ssl-cert
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 101
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: all
+Version: 1.0.32
+Depends: debconf (>= 0.5) | debconf-2.0, openssl (>= 0.9.8g-9), adduser
+Suggests: openssl-blacklist
+Description: simple debconf wrapper for OpenSSL
+ This package enables unattended installs of packages that
+ need to create SSL certificates.
+ .
+ It is a simple wrapper for OpenSSL's certificate request utility that
+ feeds it with the correct user variables.
 
 Package: dpkg-dev
 Status: install ok installed
@@ -2415,6 +2319,41 @@ Description: Linux support headers for userspace development
  headers are used by the installed headers for GNU libc and other system
  libraries.
 
+Package: resolvconf
+Status: install ok installed
+Priority: optional
+Section: net
+Installed-Size: 132
+Maintainer: resolvconf maintainers <resolvconf-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 1.67
+Depends: lsb-base, initscripts (>= 2.88dsf-13.10), debconf (>= 0.5) | debconf-2.0
+Breaks: dhcp3-client (<< 4.1.1-P1-15+squeeze1), dnscache-run
+Enhances: dhcpcd, dnsmasq, ifupdown, isc-dhcp-client, libc6, network-manager, nscd, pdnsd, ppp, pump, totd, udhcpc
+Conffiles:
+ /etc/network/if-up.d/000resolvconf 9d48827db3133fa6873753894830cb59
+ /etc/network/if-down.d/resolvconf 69cb8b35fe967d257850f55091ae38c5
+ /etc/dhcp/dhclient-enter-hooks.d/resolvconf 6f8a0dec625b17370c130647a6d4e458
+ /etc/resolvconf/interface-order 33e6b76aa10b1cbe72c6c050df536560
+ /etc/resolvconf/resolv.conf.d/base d41d8cd98f00b204e9800998ecf8427e
+ /etc/resolvconf/resolv.conf.d/head 5aee5a60350035d958401da5c0432be3
+ /etc/resolvconf/update.d/dnscache 981435dcc6f7b53a9fa7a0bdfbdaf5e0
+ /etc/resolvconf/update.d/libc 8f49c3eded04ad224cde09027d3d5a64
+ /etc/init.d/resolvconf ede9f3ffd77294f78b612de9e4fb6e1a
+ /etc/ppp/ip-up.d/000resolvconf a3a76c831a5a96917c9b293598901f72
+ /etc/ppp/ip-down.d/000resolvconf 9db55ca294345093b5efee82c8b7a6b7
+Description: name server information handler
+ Resolvconf is a framework for keeping up to date the system's
+ information about name servers. It sets itself up as the intermediary
+ between programs that supply this information (such as ifup and
+ ifdown, DHCP clients, the PPP daemon and local name servers) and
+ programs that use this information (such as DNS caches and resolver
+ libraries).
+ .
+ This package may require some manual configuration. Please
+ read the README file for detailed instructions.
+Homepage: http://alioth.debian.org/projects/resolvconf/
+
 Package: libthai-data
 Status: install ok installed
 Priority: optional
@@ -2595,38 +2534,6 @@ Description: block device id library
  The device mounting library, used by mount and mount helpers.
 Homepage: http://userweb.kernel.org/~kzak/util-linux/
 
-Package: imagemagick-common
-Status: install ok installed
-Priority: optional
-Section: graphics
-Installed-Size: 320
-Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Architecture: all
-Multi-Arch: foreign
-Source: imagemagick
-Version: 8:6.7.7.10-5+deb7u2
-Pre-Depends: dpkg (>= 1.15.7.2)
-Conffiles:
- /etc/ImageMagick/coder.xml 184715fdf06bd9fc835dc62929e8d36f
- /etc/ImageMagick/colors.xml 27d44e4d5e96d3db5a8cf834b44b69a5
- /etc/ImageMagick/log.xml 63b78f245752f5332d587e8f0917a085
- /etc/ImageMagick/magic.xml 04b219d820811a6cb1bc7af03b52b626
- /etc/ImageMagick/mime.xml 905c61059c1aeb1220d844ee71113a32
- /etc/ImageMagick/policy.xml 0e8dd72c8d56a60e100c73c250c1ebd7
- /etc/ImageMagick/quantization-table.xml 498ec5249155260bd287115df0949ffe
- /etc/ImageMagick/thresholds.xml 04d4a80687f7073ae81c91907889db42
- /etc/ImageMagick/type.xml d0caa5ce47ac32e40980d1ee7bf882eb
- /etc/ImageMagick/type-dejavu.xml 09bd5cf793568d2a5e185d475bc45b96
- /etc/ImageMagick/type-ghostscript.xml d7fdef0a5e8ff7446600ede4e04f6acf
- /etc/ImageMagick/type-windows.xml 21d3ea0e2b51ded4e3870d401897a9d8
- /etc/ImageMagick/delegates.xml d0903da7ea758d00912d8bee445d934d
-Description: image manipulation programs -- infrastructure
- imagemagick-common contains the filesystem infrastructure required for
- further installation of imagemagick in any configuration; it does not provide
- a full installation of binaries, libraries, and utilities
- required to run imagemagick.
-Homepage: http://www.imagemagick.org/
-
 Package: zlib1g
 Status: install ok installed
 Priority: required
@@ -2672,43 +2579,6 @@ Description: GD Graphics Library version 2 (without XPM support)
  This is the runtime package of the library, built without XPM (X pixmap)
  or fontconfig support.
 Homepage: http://www.libgd.org/
-
-Package: exim4-daemon-light
-Status: install ok installed
-Priority: standard
-Section: mail
-Installed-Size: 1156
-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Source: exim4
-Version: 4.80-7
-Replaces: exim4-base (<= 4.61-1), mail-transport-agent
-Provides: default-mta, exim4-localscanapi-1.0, exim4-localscanapi-1.1, mail-transport-agent
-Depends: exim4-base (>= 4.80), libc6 (>= 2.4), libdb5.1, libgnutls26 (>= 2.12.17-0), libpcre3 (>= 8.10), debconf (>= 0.5) | debconf-2.0
-Conflicts: mail-transport-agent
-Description: lightweight Exim MTA (v4) daemon
- Exim (v4) is a mail transport agent. This package contains the exim4
- daemon with only basic features enabled. It works well with the
- standard setups that are provided by Debian and includes support for
- TLS encryption and the dlopen patch to allow dynamic loading of a
- local_scan function.
- .
- The Debian exim4 packages have their own web page,
- http://wiki.debian.org/PkgExim4. There is also a Debian-specific
- FAQ list. Information about the way the Debian packages are
- configured can be found in
- /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
- information about the way the Debian binary packages are built. The
- very extensive upstream documentation is shipped in
- /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
- configuration process in a standard setup, invoke dpkg-reconfigure
- exim4-config. There is a Debian-centered mailing list,
- pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
- questions there, and only write to the upstream exim-users mailing
- list if you are sure that your question is not Debian-specific. You
- can find the subscription web page on
- http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
-Homepage: http://www.exim.org/
 
 Package: libapt-inst1.5
 Status: install ok installed
@@ -3379,6 +3249,41 @@ Description: XML parsing C library - runtime library
  which an application registers handlers for things the parser
  might find in the XML document (like start tags).
 Homepage: http://expat.sourceforge.net
+
+Package: postfix
+Status: install ok installed
+Priority: extra
+Section: mail
+Installed-Size: 3466
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Version: 2.9.6-2
+Replaces: mail-transport-agent
+Provides: mail-transport-agent
+Depends: libc6 (>= 2.11), libdb5.1, libsasl2-2 (>= 2.1.24), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), debconf (>= 0.5) | debconf-2.0, netbase, adduser (>= 3.48), dpkg (>= 1.8.3), lsb-base (>= 3.0-6), ssl-cert, cpio
+Recommends: python
+Suggests: procmail, postfix-mysql, postfix-pgsql, postfix-ldap, postfix-pcre, sasl2-bin, libsasl2-modules, dovecot-common, resolvconf, postfix-cdb, mail-reader, ufw, postfix-doc
+Conflicts: libnss-db (<< 2.2-3), mail-transport-agent, smail
+Conffiles:
+ /etc/init.d/postfix 80d5e75158b207b6d411dc41a0000bf5
+ /etc/ppp/ip-up.d/postfix fccc53fc4eeeab46941ebcc95a71e766
+ /etc/ppp/ip-down.d/postfix 52275dc23864f3bfca412c7558e28fe6
+ /etc/network/if-up.d/postfix fccc53fc4eeeab46941ebcc95a71e766
+ /etc/network/if-down.d/postfix 52275dc23864f3bfca412c7558e28fe6
+ /etc/postfix/postfix-files ad34dcc8c31d057f6f20268b0aa16f29
+ /etc/postfix/postfix-script 0d01860b2f0778cf41951c801f538b30
+ /etc/postfix/post-install 4e9b37279a95246a5fe68afdbbbfd035
+ /etc/rsyslog.d/postfix.conf d8a09827fff2a22311e4dd4a83e95c83
+ /etc/insserv.conf.d/postfix 7fe2d086ff4822fc9fe13adab1090dce
+ /etc/ufw/applications.d/postfix 5c7e746dc9255e750b8f50460de11a32
+ /etc/resolvconf/update-libc.d/postfix a0548352443659052ed16d4ae7314506
+Description: High-performance mail transport agent
+ Postfix is Wietse Venema's mail transport agent that started life as an
+ alternative to the widely-used Sendmail program.  Postfix attempts to
+ be fast, easy to administer, and secure, while at the same time being
+ sendmail compatible enough to not upset existing users. Thus, the outside
+ has a sendmail-ish flavor, but the inside is completely different.
+Homepage: http://www.postfix.org
 
 Package: iproute
 Status: install ok installed
@@ -5222,31 +5127,6 @@ Description: fast, scalable, distributed revision control system (manual pages)
  utility and the 'git help' command.
 Homepage: http://git-scm.com/
 
-Package: ufraw-batch
-Status: install ok installed
-Priority: optional
-Section: graphics
-Installed-Size: 924
-Maintainer: Hubert Chathi <uhoreg@debian.org>
-Architecture: amd64
-Source: ufraw
-Version: 0.18-2
-Replaces: ufraw (<< 0.16-2)
-Depends: libbz2-1.0, libc6 (>= 2.7), libexiv2-12, libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.24.0), libgomp1 (>= 4.2.1), libjpeg8 (>= 8c), liblcms1 (>= 1.15-1), liblensfun0, libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.6), libtiff4 (>> 3.9.5-3~), zlib1g (>= 1:1.1.4)
-Suggests: ufraw
-Description: batch importer for raw camera images
- This is a command-line batch tool to import raw data from high-end digital
- cameras.
- .
- The Unidentified Flying Raw (UFRaw) is a utility for converting and
- manipulating raw images from digital cameras. It can be used as a
- stand-alone tool or as a Gimp plug-in, and images can be batch
- processed using the command-line interface. UFRaw reads most existing
- raw formats using Dave Coffin's raw conversion utility DCRaw, and it
- supports basic color management using Little CMS, allowing the user to
- apply color profiles.
-Homepage: http://ufraw.sourceforge.net/
-
 Package: e2fsprogs
 Essential: yes
 Status: install ok installed
@@ -6334,36 +6214,6 @@ Description: compression library - development
  files.
 Homepage: http://zlib.net/
 
-Package: libexiv2-12
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 2290
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Architecture: amd64
-Source: exiv2
-Version: 0.23-1
-Depends: libc6 (>= 2.4), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
-Suggests: exiv2
-Description: EXIF/IPTC metadata manipulation library
- Exiv2 is a C++ library and a command line utility to manage image metadata.
- It provides fast and easy read and write access to the Exif, IPTC and XMP
- metadata of images in various formats
- .
- Exiv2 library provides:
-  * fast read and write access to the Exif, IPTC, and XMP metadata of an image
-  * an easy to use and extensively documented API
-  * conversions of Exif and IPTC metadata to XMP and vice versa
-  * a smart IPTC implementation that does not affect data that programs like
-    Photoshop store in the same image segment
-  * Exif Makernote support:
-    - Makernote tags can be read and written just like any other metadata
-    - a sophisticated write algorithm avoids corrupting the Makernote
-  * a simple interface to extract previews embedded in RAW images and Exif
-    thumbnails
-  * set and delete methods for Exif thumbnails
-Homepage: http://www.exiv2.org
-
 Package: gcc-4.7-base
 Status: install ok installed
 Priority: required
@@ -7048,54 +6898,6 @@ Description: pixel-manipulation library for X and cairo
  rectangles, image compositing using the Porter/Duff model
  and implicit mask generation for geometric primitives including
  trapezoids, triangles, and rectangles.
-
-Package: exim4-base
-Status: install ok installed
-Priority: standard
-Section: mail
-Installed-Size: 1426
-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Source: exim4
-Version: 4.80-7
-Replaces: exim, exim-tls, exim4-daemon-custom, exim4-daemon-heavy, exim4-daemon-light
-Depends: libc6 (>= 2.4), libdb5.1, debconf (>= 0.5) | debconf-2.0, cron | fcron, exim4-config (>= 4.30) | exim4-config-2, adduser, netbase, lsb-base (>= 3.0-6)
-Recommends: psmisc, mailx, perl-modules
-Suggests: mail-reader, eximon4, exim4-doc-html | exim4-doc-info, gnutls-bin | openssl, file, spf-tools-perl, swaks
-Breaks: exim4-daemon-custom (<< 4.80), exim4-daemon-heavy (<< 4.80), exim4-daemon-light (<< 4.80)
-Conflicts: exim, exim-tls
-Conffiles:
- /etc/cron.daily/exim4-base 17bf6e02c3f3d3180cb74668bba28144
- /etc/logrotate.d/exim4-base cd9fc4ad67f13176c098fab4bbcd32b5
- /etc/logrotate.d/exim4-paniclog 27d670010e80246c4a1dd89419589009
- /etc/init.d/exim4 f20c4b142234e088b7ebcf9a02c46fb2
-Description: support files for all Exim MTA (v4) packages
- Exim (v4) is a mail transport agent. exim4-base provides the support
- files needed by all exim4 daemon packages. You need an additional package
- containing the main executable. The available packages are:
- .
-  exim4-daemon-light
-  exim4-daemon-heavy
- .
- If you build exim4 from the source package locally, you can also
- build an exim4-daemon-custom package tailored to your own feature set.
- .
- The Debian exim4 packages have their own web page,
- http://wiki.debian.org/PkgExim4. There is also a Debian-specific
- FAQ list. Information about the way the Debian packages are
- configured can be found in
- /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
- information about the way the Debian binary packages are built. The
- very extensive upstream documentation is shipped in
- /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
- configuration process in a standard setup, invoke dpkg-reconfigure
- exim4-config. There is a Debian-centered mailing list,
- pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
- questions there, and only write to the upstream exim-users mailing
- list if you are sure that your question is not Debian-specific. You
- can find the subscription web page on
- http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
-Homepage: http://www.exim.org/
 
 Package: python-setuptools
 Status: install ok installed

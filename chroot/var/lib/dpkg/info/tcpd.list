@@ -9,7 +9,6 @@
 /usr/share
 /usr/share/doc
 /usr/share/man
-/usr/share/man/man8
 /usr/share/man/man8/safe_finger.8.gz
 /usr/share/man/man8/tcpd.8.gz
 /usr/share/man/man8/tcpdchk.8.gz

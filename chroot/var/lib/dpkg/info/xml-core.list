@@ -36,9 +36,7 @@
 /usr/share/sgml/dtd/xml-core
 /usr/share/sgml/dtd/xml-core/catalog
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/dh_installxmlcatalogs.1.gz
-/usr/share/man/man8
 /usr/share/man/man8/update-xmlcatalog.8.gz
 /usr/share/debhelper
 /usr/share/debhelper/autoscripts

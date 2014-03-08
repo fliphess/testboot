@@ -5,7 +5,6 @@
 /usr/share/lintian/overrides
 /usr/share/lintian/overrides/openssh-client
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/scp.1.gz
 /usr/share/man/man1/sftp.1.gz
 /usr/share/man/man1/ssh-add.1.gz
@@ -16,10 +15,8 @@
 /usr/share/man/man1/ssh.1.gz
 /usr/share/man/man1/ssh-copy-id.1.gz
 /usr/share/man/man1/ssh-argv0.1.gz
-/usr/share/man/man5
 /usr/share/man/man5/moduli.5.gz
 /usr/share/man/man5/ssh_config.5.gz
-/usr/share/man/man8
 /usr/share/man/man8/ssh-keysign.8.gz
 /usr/share/man/man8/ssh-pkcs11-helper.8.gz
 /usr/share/doc

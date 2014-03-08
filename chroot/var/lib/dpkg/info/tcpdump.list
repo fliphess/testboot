@@ -13,7 +13,6 @@
 /usr/share/doc/tcpdump/copyright
 /usr/share/doc/tcpdump/changelog.Debian.gz
 /usr/share/man
-/usr/share/man/man8
 /usr/share/man/man8/tcpdump.8.gz
 /usr/sbin
 /usr/sbin/tcpdump
