@@ -30,6 +30,7 @@ chroot/var/spool/*
 chroot/var/cache/apt/archives/
 chroot/var/cache/man/
 chroot/var/cache/apt/lists/
+chroot/var/lib/apt/lists/
 
 
 

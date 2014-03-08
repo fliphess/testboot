@@ -30,9 +30,6 @@
 /usr/share/doc/aptitude/examples/pkg_hier_dump.cc.gz
 /usr/share/doc/aptitude/README.hier
 /usr/share/doc/aptitude/README.Debian
-/usr/share/locale
-/usr/share/locale/cs
-/usr/share/locale/cs/LC_MESSAGES
 /usr/share/locale/cs/LC_MESSAGES/aptitude.mo
 /usr/share/locale/dz
 /usr/share/locale/dz/LC_MESSAGES
@@ -55,11 +52,7 @@
 /usr/share/locale/pt_BR
 /usr/share/locale/pt_BR/LC_MESSAGES
 /usr/share/locale/pt_BR/LC_MESSAGES/aptitude.mo
-/usr/share/locale/nl
-/usr/share/locale/nl/LC_MESSAGES
 /usr/share/locale/nl/LC_MESSAGES/aptitude.mo
-/usr/share/locale/zh_CN
-/usr/share/locale/zh_CN/LC_MESSAGES
 /usr/share/locale/zh_CN/LC_MESSAGES/aptitude.mo
 /usr/share/locale/ku
 /usr/share/locale/ku/LC_MESSAGES
@@ -73,8 +66,6 @@
 /usr/share/locale/tr
 /usr/share/locale/tr/LC_MESSAGES
 /usr/share/locale/tr/LC_MESSAGES/aptitude.mo
-/usr/share/locale/sv
-/usr/share/locale/sv/LC_MESSAGES
 /usr/share/locale/sv/LC_MESSAGES/aptitude.mo
 /usr/share/locale/nn
 /usr/share/locale/nn/LC_MESSAGES
@@ -97,11 +88,7 @@
 /usr/share/locale/ar
 /usr/share/locale/ar/LC_MESSAGES
 /usr/share/locale/ar/LC_MESSAGES/aptitude.mo
-/usr/share/locale/fr
-/usr/share/locale/fr/LC_MESSAGES
 /usr/share/locale/fr/LC_MESSAGES/aptitude.mo
-/usr/share/locale/vi
-/usr/share/locale/vi/LC_MESSAGES
 /usr/share/locale/vi/LC_MESSAGES/aptitude.mo
 /usr/share/locale/ca
 /usr/share/locale/ca/LC_MESSAGES
@@ -130,8 +117,6 @@
 /usr/share/locale/ru
 /usr/share/locale/ru/LC_MESSAGES
 /usr/share/locale/ru/LC_MESSAGES/aptitude.mo
-/usr/share/locale/it
-/usr/share/locale/it/LC_MESSAGES
 /usr/share/locale/it/LC_MESSAGES/aptitude.mo
 /usr/share/locale/ne
 /usr/share/locale/ne/LC_MESSAGES
@@ -139,8 +124,6 @@
 /usr/share/locale/hu
 /usr/share/locale/hu/LC_MESSAGES
 /usr/share/locale/hu/LC_MESSAGES/aptitude.mo
-/usr/share/locale/pl
-/usr/share/locale/pl/LC_MESSAGES
 /usr/share/locale/pl/LC_MESSAGES/aptitude.mo
 /usr/share/locale/hr
 /usr/share/locale/hr/LC_MESSAGES
@@ -148,8 +131,6 @@
 /usr/share/locale/zh_TW
 /usr/share/locale/zh_TW/LC_MESSAGES
 /usr/share/locale/zh_TW/LC_MESSAGES/aptitude.mo
-/usr/share/locale/de
-/usr/share/locale/de/LC_MESSAGES
 /usr/share/locale/de/LC_MESSAGES/aptitude.mo
 /usr/share/aptitude
 /usr/share/aptitude/aptitude-defaults.it

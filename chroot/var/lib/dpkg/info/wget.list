@@ -15,7 +15,6 @@
 /usr/share/doc/wget/copyright
 /usr/share/doc/wget/ChangeLog.README
 /usr/share/doc/wget/NEWS.gz
-/usr/share/locale
 /usr/share/locale/ja
 /usr/share/locale/ja/LC_MESSAGES
 /usr/share/locale/ja/LC_MESSAGES/wget.mo
@@ -31,8 +30,6 @@
 /usr/share/locale/eu
 /usr/share/locale/eu/LC_MESSAGES
 /usr/share/locale/eu/LC_MESSAGES/wget.mo
-/usr/share/locale/zh_CN
-/usr/share/locale/zh_CN/LC_MESSAGES
 /usr/share/locale/zh_CN/LC_MESSAGES/wget.mo
 /usr/share/locale/zh_TW
 /usr/share/locale/zh_TW/LC_MESSAGES
@@ -40,8 +37,6 @@
 /usr/share/locale/eo
 /usr/share/locale/eo/LC_MESSAGES
 /usr/share/locale/eo/LC_MESSAGES/wget.mo
-/usr/share/locale/vi
-/usr/share/locale/vi/LC_MESSAGES
 /usr/share/locale/vi/LC_MESSAGES/wget.mo
 /usr/share/locale/bg
 /usr/share/locale/bg/LC_MESSAGES
@@ -58,14 +53,8 @@
 /usr/share/locale/fi
 /usr/share/locale/fi/LC_MESSAGES
 /usr/share/locale/fi/LC_MESSAGES/wget.mo
-/usr/share/locale/sv
-/usr/share/locale/sv/LC_MESSAGES
 /usr/share/locale/sv/LC_MESSAGES/wget.mo
-/usr/share/locale/nl
-/usr/share/locale/nl/LC_MESSAGES
 /usr/share/locale/nl/LC_MESSAGES/wget.mo
-/usr/share/locale/fr
-/usr/share/locale/fr/LC_MESSAGES
 /usr/share/locale/fr/LC_MESSAGES/wget.mo
 /usr/share/locale/id
 /usr/share/locale/id/LC_MESSAGES
@@ -91,8 +80,6 @@
 /usr/share/locale/ro
 /usr/share/locale/ro/LC_MESSAGES
 /usr/share/locale/ro/LC_MESSAGES/wget.mo
-/usr/share/locale/it
-/usr/share/locale/it/LC_MESSAGES
 /usr/share/locale/it/LC_MESSAGES/wget.mo
 /usr/share/locale/nb
 /usr/share/locale/nb/LC_MESSAGES
@@ -109,8 +96,6 @@
 /usr/share/locale/ga
 /usr/share/locale/ga/LC_MESSAGES
 /usr/share/locale/ga/LC_MESSAGES/wget.mo
-/usr/share/locale/pl
-/usr/share/locale/pl/LC_MESSAGES
 /usr/share/locale/pl/LC_MESSAGES/wget.mo
 /usr/share/locale/he
 /usr/share/locale/he/LC_MESSAGES
@@ -121,8 +106,6 @@
 /usr/share/locale/uk
 /usr/share/locale/uk/LC_MESSAGES
 /usr/share/locale/uk/LC_MESSAGES/wget.mo
-/usr/share/locale/cs
-/usr/share/locale/cs/LC_MESSAGES
 /usr/share/locale/cs/LC_MESSAGES/wget.mo
 /usr/share/locale/sk
 /usr/share/locale/sk/LC_MESSAGES
@@ -130,8 +113,6 @@
 /usr/share/locale/es
 /usr/share/locale/es/LC_MESSAGES
 /usr/share/locale/es/LC_MESSAGES/wget.mo
-/usr/share/locale/de
-/usr/share/locale/de/LC_MESSAGES
 /usr/share/locale/de/LC_MESSAGES/wget.mo
 /usr/share/man
 /usr/share/man/man1

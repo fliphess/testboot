@@ -661,7 +661,7 @@ Description: System-V-like runlevel change mechanism
 Homepage: http://savannah.nongnu.org/projects/sysvinit
 
 Package: apt
-Status: install ok unpacked
+Status: install ok installed
 Priority: important
 Section: admin
 Installed-Size: 3271
@@ -673,9 +673,9 @@ Depends: libapt-pkg4.12 (>= 0.9.7.9+deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1
 Suggests: aptitude | synaptic | wajig, dpkg-dev, apt-doc, xz-utils, python-apt
 Conflicts: python-apt (<< 0.7.93.2~)
 Conffiles:
- /etc/apt/apt.conf.d/01autoremove newconffile
- /etc/logrotate.d/apt newconffile
- /etc/cron.daily/apt newconffile
+ /etc/apt/apt.conf.d/01autoremove b9bbfaa2954b0499576b8d00c37d6a34
+ /etc/logrotate.d/apt 179f2ed4f85cbaca12fa3d69c2a4a1c3
+ /etc/cron.daily/apt 6a9df5d143022d22b2e89fa7c1bac8aa
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -1200,7 +1200,7 @@ Description: Manual pages about using a GNU/Linux system
 Homepage: http://www.kernel.org/doc/man-pages/
 
 Package: tasksel
-Status: install ok unpacked
+Status: install ok installed
 Priority: important
 Section: admin
 Installed-Size: 714
@@ -1356,7 +1356,7 @@ Description: shared libraries for terminal handling
 Homepage: http://invisible-island.net/ncurses/
 
 Package: tasksel-data
-Status: install ok unpacked
+Status: install ok installed
 Priority: important
 Section: admin
 Installed-Size: 550
@@ -1528,7 +1528,7 @@ Description: ext2/ext3/ext4 file system libraries
 Homepage: http://e2fsprogs.sourceforge.net
 
 Package: wget
-Status: install ok unpacked
+Status: install ok installed
 Priority: important
 Section: web
 Installed-Size: 2166
@@ -1539,7 +1539,7 @@ Version: 1.13.4-3+deb7u1
 Depends: libc6 (>= 2.11), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libgpg-error0 (>= 1.10), libidn11 (>= 1.13), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
 Conflicts: wget-ssl
 Conffiles:
- /etc/wgetrc newconffile
+ /etc/wgetrc 12cbbf1f2f88dc3b0b289cd368761b7e
 Description: retrieves files from the web
  Wget is a network utility to retrieve files from the web
  using HTTP(S) and FTP, the two most widely used internet
@@ -1794,7 +1794,7 @@ Description: pipeline manipulation library
 Homepage: http://libpipeline.nongnu.org/
 
 Package: libcwidget3
-Status: install ok unpacked
+Status: install ok installed
 Priority: important
 Section: libs
 Installed-Size: 1433
@@ -2254,7 +2254,7 @@ Description: TCP/IP swiss army knife
  features found in netcat-openbsd.
 
 Package: libgnutls26
-Status: install ok installed
+Status: install ok unpacked
 Priority: standard
 Section: libs
 Installed-Size: 1375
@@ -2262,7 +2262,8 @@ Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: gnutls26
-Version: 2.12.20-7
+Version: 2.12.20-8+deb7u1
+Config-Version: 2.12.20-7
 Replaces: gnutls0, gnutls0.4, gnutls3
 Depends: libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libp11-kit0 (>= 0.11), libtasn1-3 (>= 1.6-0), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
@@ -2398,7 +2399,7 @@ Description: Debian package management system
 Homepage: http://wiki.debian.org/Teams/Dpkg
 
 Package: aptitude
-Status: install ok unpacked
+Status: install ok installed
 Priority: important
 Section: admin
 Installed-Size: 4541
@@ -2410,8 +2411,8 @@ Recommends: aptitude-doc-en | aptitude-doc, sensible-utils, apt-xapian-index, li
 Suggests: tasksel, debtags
 Conflicts: ia32-apt-get (<< 22)
 Conffiles:
- /etc/cron.daily/aptitude newconffile
- /etc/logrotate.d/aptitude newconffile
+ /etc/cron.daily/aptitude f934222d5eb13cb132e2751bdb023318
+ /etc/logrotate.d/aptitude fb66bc5dc8c13edbcb83cea15ff86959
 Description: terminal-based package manager
  aptitude is a package manager with a number of useful features,
  including: a mutt-like syntax for matching packages in a flexible

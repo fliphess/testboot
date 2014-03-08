@@ -12,12 +12,7 @@
 /usr/share/tasksel
 /usr/share/tasksel/descs
 /usr/share/tasksel/descs/debian-tasks.desc
-/usr/share/locale
-/usr/share/locale/it
-/usr/share/locale/it/LC_MESSAGES
 /usr/share/locale/it/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/cs
-/usr/share/locale/cs/LC_MESSAGES
 /usr/share/locale/cs/LC_MESSAGES/debian-tasks.mo
 /usr/share/locale/hu
 /usr/share/locale/hu/LC_MESSAGES
@@ -34,8 +29,6 @@
 /usr/share/locale/km
 /usr/share/locale/km/LC_MESSAGES
 /usr/share/locale/km/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/de
-/usr/share/locale/de/LC_MESSAGES
 /usr/share/locale/de/LC_MESSAGES/debian-tasks.mo
 /usr/share/locale/dz
 /usr/share/locale/dz/LC_MESSAGES
@@ -61,11 +54,7 @@
 /usr/share/locale/uk
 /usr/share/locale/uk/LC_MESSAGES
 /usr/share/locale/uk/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/pl
-/usr/share/locale/pl/LC_MESSAGES
 /usr/share/locale/pl/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/fr
-/usr/share/locale/fr/LC_MESSAGES
 /usr/share/locale/fr/LC_MESSAGES/debian-tasks.mo
 /usr/share/locale/eo
 /usr/share/locale/eo/LC_MESSAGES
@@ -97,8 +86,6 @@
 /usr/share/locale/es
 /usr/share/locale/es/LC_MESSAGES
 /usr/share/locale/es/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/nl
-/usr/share/locale/nl/LC_MESSAGES
 /usr/share/locale/nl/LC_MESSAGES/debian-tasks.mo
 /usr/share/locale/ar
 /usr/share/locale/ar/LC_MESSAGES
@@ -115,8 +102,6 @@
 /usr/share/locale/ne
 /usr/share/locale/ne/LC_MESSAGES
 /usr/share/locale/ne/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/sv
-/usr/share/locale/sv/LC_MESSAGES
 /usr/share/locale/sv/LC_MESSAGES/debian-tasks.mo
 /usr/share/locale/lv
 /usr/share/locale/lv/LC_MESSAGES
@@ -160,11 +145,7 @@
 /usr/share/locale/ro
 /usr/share/locale/ro/LC_MESSAGES
 /usr/share/locale/ro/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/zh_CN
-/usr/share/locale/zh_CN/LC_MESSAGES
 /usr/share/locale/zh_CN/LC_MESSAGES/debian-tasks.mo
-/usr/share/locale/vi
-/usr/share/locale/vi/LC_MESSAGES
 /usr/share/locale/vi/LC_MESSAGES/debian-tasks.mo
 /usr/share/locale/el
 /usr/share/locale/el/LC_MESSAGES

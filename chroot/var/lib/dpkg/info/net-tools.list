@@ -50,12 +50,7 @@
 /usr/share/doc/net-tools/changelog.Debian.gz
 /usr/share/doc/net-tools/README.ipv6
 /usr/share/doc/net-tools/TODO
-/usr/share/locale
-/usr/share/locale/cs
-/usr/share/locale/cs/LC_MESSAGES
 /usr/share/locale/cs/LC_MESSAGES/net-tools.mo
-/usr/share/locale/fr
-/usr/share/locale/fr/LC_MESSAGES
 /usr/share/locale/fr/LC_MESSAGES/net-tools.mo
 /usr/share/locale/pt_BR
 /usr/share/locale/pt_BR/LC_MESSAGES
@@ -63,8 +58,6 @@
 /usr/share/locale/et_EE
 /usr/share/locale/et_EE/LC_MESSAGES
 /usr/share/locale/et_EE/LC_MESSAGES/net-tools.mo
-/usr/share/locale/de
-/usr/share/locale/de/LC_MESSAGES
 /usr/share/locale/de/LC_MESSAGES/net-tools.mo
 /usr/share/locale/ja
 /usr/share/locale/ja/LC_MESSAGES
