@@ -1,0 +1,11 @@
+#!/bin/bash	
+echo "mounting /proc"
+mount none -t proc /proc
+echo "mounting /sys"
+mount none -t sysfs /sys
+echo "mounting /dev/pts"
+mount none -t devpts /dev/pts
+echo "Creating machine id"
+dbus-uuidgen > /var/lib/dbus/machine-id
+/etc/init.d/dbus restart
+echo "All done!"

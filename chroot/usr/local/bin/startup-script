@@ -1,0 +1,5 @@
+#!/bin/bash
+sleep 20
+clear
+/usr/local/bin/server-status
+cat

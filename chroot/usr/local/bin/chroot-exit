@@ -1,0 +1,11 @@
+#!/bin/bash
+	echo "Cleaning up"
+	apt-get clean -y
+	echo "Removing uniques"
+	test -f /var/lib/dbus/machine-id && rm -v /var/lib/dbus/machine-id
+	echo "Cleaning tmp"
+	rm -rvf /tmp/*
+	echo "Unmounting /proc /sys /dev/pts"
+	umount /proc /sys /dev/pts
+	echo "All Done"
+	exit
