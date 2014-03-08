@@ -18,10 +18,8 @@
 /usr/share/doc/sysvinit-utils/NEWS.Debian.gz
 /usr/share/doc/sysvinit-utils/changelog.gz
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/mesg.1.gz
 /usr/share/man/man1/last.1.gz
-/usr/share/man/man8
 /usr/share/man/man8/sulogin.8.gz
 /usr/share/man/man8/pidof.8.gz
 /usr/share/man/man8/fstab-decode.8.gz

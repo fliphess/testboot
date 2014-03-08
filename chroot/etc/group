@@ -39,3 +39,7 @@ users:x:100:
 nogroup:x:65534:
 libuuid:x:101:
 crontab:x:102:
+ntp:x:103:
+Debian-exim:x:104:
+ssh:x:105:
+messagebus:x:106:

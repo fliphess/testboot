@@ -158,9 +158,7 @@
 /usr/share/doc/libudev0/NEWS.gz
 /usr/share/doc/libudev0/README.Debian.gz
 /usr/share/man
-/usr/share/man/man7
 /usr/share/man/man7/udev.7.gz
-/usr/share/man/man8
 /usr/share/man/man8/udevadm.8.gz
 /usr/share/man/man8/udevd.8.gz
 /usr/share/man/man8/scsi_id.8.gz

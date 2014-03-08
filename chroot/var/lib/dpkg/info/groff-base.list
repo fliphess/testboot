@@ -19,7 +19,6 @@
 /usr/bin/nroff
 /usr/share
 /usr/share/doc
-/usr/share/doc/groff-base
 /usr/share/doc/groff-base/README.gz
 /usr/share/doc/groff-base/PROJECTS
 /usr/share/doc/groff-base/MORE.STUFF.gz
@@ -32,7 +31,6 @@
 /usr/share/doc/groff-base/TODO
 /usr/share/doc/groff-base/README.Debian
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/grops.1.gz
 /usr/share/man/man1/troff.1.gz
 /usr/share/man/man1/neqn.1.gz

@@ -12,7 +12,6 @@
 /usr/share/insserv/make-testsuite
 /usr/share/insserv/check-archive-initd-scripts
 /usr/share/man
-/usr/share/man/man8
 /usr/share/man/man8/insserv.8.gz
 /usr/share/doc
 /usr/share/doc/insserv

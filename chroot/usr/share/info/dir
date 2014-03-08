@@ -29,6 +29,9 @@ Compression
 Editors
 * nano: (nano).                 Small and friendly text editor.
 
+General Commands
+* Screen: (screen).             Full-screen window manager.
+
 GNU Utilities
 * gpg: (gnupg1).                OpenPGP encryption and signing tool (v1).
 

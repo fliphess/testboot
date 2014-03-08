@@ -1,9 +1,12 @@
-TARGETS = sendsigs urandom rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
-rsyslog: sendsigs
-umountnfs.sh: sendsigs rsyslog
+TARGETS = exim4 mdadm urandom sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot mdadm-raid mdadm-waitidle halt reboot
+sendsigs: exim4 mdadm
+rsyslog: sendsigs exim4 mdadm
+umountnfs.sh: rsyslog sendsigs exim4
 hwclock.sh: rsyslog
-networking: umountnfs.sh
-umountfs: umountnfs.sh networking hwclock.sh urandom
+networking: umountnfs.sh exim4
+umountfs: umountnfs.sh exim4 networking urandom mdadm hwclock.sh
 umountroot: umountfs
-halt: umountroot
-reboot: umountroot
+mdadm-raid: umountfs mdadm
+mdadm-waitidle: umountroot
+halt: umountroot mdadm-waitidle
+reboot: umountroot mdadm-waitidle

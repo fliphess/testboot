@@ -32,9 +32,7 @@
 /usr/lib/rsyslog/impstats.so
 /usr/share
 /usr/share/man
-/usr/share/man/man8
 /usr/share/man/man8/rsyslogd.8.gz
-/usr/share/man/man5
 /usr/share/man/man5/rsyslog.conf.5.gz
 /usr/share/lintian
 /usr/share/lintian/overrides

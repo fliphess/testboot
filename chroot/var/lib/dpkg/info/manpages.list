@@ -17,12 +17,9 @@
 /usr/share/man
 /usr/share/man/man6
 /usr/share/man/man6/intro.6.gz
-/usr/share/man/man1
 /usr/share/man/man1/intro.1.gz
 /usr/share/man/man1/getent.1.gz
-/usr/share/man/man2
 /usr/share/man/man2/intro.2.gz
-/usr/share/man/man7
 /usr/share/man/man7/koi8-r.7.gz
 /usr/share/man/man7/arp.7.gz
 /usr/share/man/man7/mailaddr.7.gz
@@ -112,7 +109,6 @@
 /usr/share/man/man7/man-pages.7.gz
 /usr/share/man/man7/iso_8859-5.7.gz
 /usr/share/man/man7/standards.7.gz
-/usr/share/man/man4
 /usr/share/man/man4/full.4.gz
 /usr/share/man/man4/cpuid.4.gz
 /usr/share/man/man4/cciss.4.gz
@@ -140,13 +136,10 @@
 /usr/share/man/man4/rtc.4.gz
 /usr/share/man/man4/ram.4.gz
 /usr/share/man/man4/null.4.gz
-/usr/share/man/man3
 /usr/share/man/man3/intro.3.gz
-/usr/share/man/man8
 /usr/share/man/man8/sync.8.gz
 /usr/share/man/man8/tzselect.8.gz
 /usr/share/man/man8/intro.8.gz
-/usr/share/man/man5
 /usr/share/man/man5/motd.5.gz
 /usr/share/man/man5/proc.5.gz
 /usr/share/man/man5/mailname.5.gz

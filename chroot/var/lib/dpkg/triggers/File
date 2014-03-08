@@ -5,3 +5,14 @@
 /usr/X11R6/man man-db
 /opt/man man-db
 /usr/share/info install-info
+/usr/lib/x86_64-linux-gnu/gio/modules libglib2.0-0:amd64
+/usr/lib/gio/modules libglib2.0-0:amd64
+/usr/share/glib-2.0/schemas libglib2.0-0:amd64
+/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders libgdk-pixbuf2.0-0:amd64
+/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders libgdk-pixbuf2.0-0:amd64
+/usr/share/fonts fontconfig
+/usr/share/ghostscript/fonts fontconfig
+/usr/share/texmf/fonts fontconfig
+/etc/sgml sgml-base
+/usr/lib/mime/packages mime-support
+/usr/share/mime/packages shared-mime-info

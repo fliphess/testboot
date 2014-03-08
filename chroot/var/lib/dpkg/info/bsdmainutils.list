@@ -94,7 +94,6 @@
 /usr/share/lintian/overrides
 /usr/share/lintian/overrides/bsdmainutils
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/ncal.1.gz
 /usr/share/man/man1/printerbanner.1.gz
 /usr/share/man/man1/bsd-from.1.gz

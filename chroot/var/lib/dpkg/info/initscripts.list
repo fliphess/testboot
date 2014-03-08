@@ -67,11 +67,8 @@
 /usr/share/doc/initscripts/NEWS.Debian.gz
 /usr/share/doc/initscripts/changelog.gz
 /usr/share/man
-/usr/share/man/man1
 /usr/share/man/man1/mountpoint.1.gz
-/usr/share/man/man5
 /usr/share/man/man5/halt.5.gz
 /usr/share/man/man5/tmpfs.5.gz
 /usr/share/man/man5/rcS.5.gz
-/usr/share/man/man8
 /usr/share/man/man8/fsck.nfs.8.gz

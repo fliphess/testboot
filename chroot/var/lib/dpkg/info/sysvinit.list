@@ -19,10 +19,8 @@
 /usr/share/doc/sysvinit/NEWS.Debian.gz
 /usr/share/doc/sysvinit/changelog.gz
 /usr/share/man
-/usr/share/man/man5
 /usr/share/man/man5/initscript.5.gz
 /usr/share/man/man5/inittab.5.gz
-/usr/share/man/man8
 /usr/share/man/man8/shutdown.8.gz
 /usr/share/man/man8/init.8.gz
 /usr/share/man/man8/halt.8.gz

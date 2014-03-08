@@ -7,6 +7,28 @@ Name: adduser/title
 Template: adduser/title
 Owners: adduser
 
+Name: ca-certificates/enable_crts
+Template: ca-certificates/enable_crts
+Value: cacert.org/cacert.org.crt, debconf.org/ca.crt, mozilla/A-Trust-nQual-03.crt, mozilla/ACEDICOM_Root.crt, mozilla/AC_Raíz_Certicámara_S.A..crt, mozilla/Actalis_Authentication_Root_CA.crt, mozilla/AddTrust_External_Root.crt, mozilla/AddTrust_Low-Value_Services_Root.crt, mozilla/AddTrust_Public_Services_Root.crt, mozilla/AddTrust_Qualified_Certificates_Root.crt, mozilla/AffirmTrust_Commercial.crt, mozilla/AffirmTrust_Networking.crt, mozilla/AffirmTrust_Premium.crt, mozilla/AffirmTrust_Premium_ECC.crt, mozilla/America_Online_Root_Certification_Authority_1.crt, mozilla/America_Online_Root_Certification_Authority_2.crt, mozilla/ApplicationCA_-_Japanese_Government.crt, mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt, mozilla/Baltimore_CyberTrust_Root.crt, mozilla/Buypass_Class_2_CA_1.crt, mozilla/Buypass_Class_2_Root_CA.crt, mozilla/Buypass_Class_3_CA_1.crt, mozilla/Buypass_Class_3_Root_CA.crt, mozilla/CA_Disig.crt, mozilla/CNNIC_ROOT.crt, mozilla/COMODO_Certification_Authority.crt, mozilla/COMODO_ECC_Certification_Authority.crt, mozilla/Camerfirma_Chambers_of_Commerce_Root.crt, mozilla/Camerfirma_Global_Chambersign_Root.crt, mozilla/Certigna.crt, mozilla/Certinomis_-_Autorité_Racine.crt, mozilla/Certplus_Class_2_Primary_CA.crt, mozilla/Certum_Root_CA.crt, mozilla/Certum_Trusted_Network_CA.crt, mozilla/Chambers_of_Commerce_Root_-_2008.crt, mozilla/ComSign_CA.crt, mozilla/ComSign_Secured_CA.crt, mozilla/Comodo_AAA_Services_root.crt, mozilla/Comodo_Secure_Services_root.crt, mozilla/Comodo_Trusted_Services_root.crt, mozilla/Cybertrust_Global_Root.crt, mozilla/DST_ACES_CA_X6.crt, mozilla/DST_Root_CA_X3.crt, mozilla/Deutsche_Telekom_Root_CA_2.crt, mozilla/DigiCert_Assured_ID_Root_CA.crt, mozilla/DigiCert_Global_Root_CA.crt, mozilla/DigiCert_High_Assurance_EV_Root_CA.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt, mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt, mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt, mozilla/EC-ACC.crt, mozilla/EE_Certification_Centre_Root_CA.crt, mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt, mozilla/Entrust.net_Secure_Server_CA.crt, mozilla/Entrust_Root_Certification_Authority.crt, mozilla/Equifax_Secure_CA.crt, mozilla/Equifax_Secure_Global_eBusiness_CA.crt, mozilla/Equifax_Secure_eBusiness_CA_1.crt, mozilla/Equifax_Secure_eBusiness_CA_2.crt, mozilla/Firmaprofesional_Root_CA.crt, mozilla/GTE_CyberTrust_Global_Root.crt, mozilla/GeoTrust_Global_CA.crt, mozilla/GeoTrust_Global_CA_2.crt, mozilla/GeoTrust_Primary_Certification_Authority.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt, mozilla/GeoTrust_Universal_CA.crt, mozilla/GeoTrust_Universal_CA_2.crt, mozilla/GlobalSign_Root_CA.crt, mozilla/GlobalSign_Root_CA_-_R2.crt, mozilla/GlobalSign_Root_CA_-_R3.crt, mozilla/Global_Chambersign_Root_-_2008.crt, mozilla/Go_Daddy_Class_2_CA.crt, mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt, mozilla/Hongkong_Post_Root_CA_1.crt, mozilla/IGC_A.crt, mozilla/Izenpe.com.crt, mozilla/Juur-SK.crt, mozilla/Microsec_e-Szigno_Root_CA.crt, mozilla/Microsec_e-Szigno_Root_CA_2009.crt, mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt, mozilla/NetLock_Business_=Class_B=_Root.crt, mozilla/NetLock_Express_=Class_C=_Root.crt, mozilla/NetLock_Notary_=Class_A=_Root.crt, mozilla/NetLock_Qualified_=Class_QA=_Root.crt, mozilla/Network_Solutions_Certificate_Authority.crt, mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt, mozilla/QuoVadis_Root_CA.crt, mozilla/QuoVadis_Root_CA_2.crt, mozilla/QuoVadis_Root_CA_3.crt, mozilla/RSA_Root_Certificate_1.crt, mozilla/RSA_Security_2048_v3.crt, mozilla/Root_CA_Generalitat_Valenciana.crt, mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt, mozilla/SecureSign_RootCA11.crt, mozilla/SecureTrust_CA.crt, mozilla/Secure_Global_CA.crt, mozilla/Security_Communication_EV_RootCA1.crt, mozilla/Security_Communication_RootCA2.crt, mozilla/Security_Communication_Root_CA.crt, mozilla/Sonera_Class_1_Root_CA.crt, mozilla/Sonera_Class_2_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt, mozilla/Starfield_Class_2_CA.crt, mozilla/Starfield_Root_Certificate_Authority_-_G2.crt, mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt, mozilla/StartCom_Certification_Authority.crt, mozilla/StartCom_Certification_Authority_G2.crt, mozilla/SwissSign_Gold_CA_-_G2.crt, mozilla/SwissSign_Platinum_CA_-_G2.crt, mozilla/SwissSign_Silver_CA_-_G2.crt, mozilla/Swisscom_Root_CA_1.crt, mozilla/T-TeleSec_GlobalRoot_Class_3.crt, mozilla/TC_TrustCenter_Class_2_CA_II.crt, mozilla/TC_TrustCenter_Class_3_CA_II.crt, mozilla/TC_TrustCenter_Universal_CA_I.crt, mozilla/TC_TrustCenter_Universal_CA_III.crt, mozilla/TDC_Internet_Root_CA.crt, mozilla/TDC_OCES_Root_CA.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt, mozilla/TWCA_Root_Certification_Authority.crt, mozilla/Taiwan_GRCA.crt, mozilla/Thawte_Premium_Server_CA.crt, mozilla/Thawte_Server_CA.crt, mozilla/Trustis_FPS_Root_CA.crt, mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt, mozilla/UTN_DATACorp_SGC_Root_CA.crt, mozilla/UTN_USERFirst_Email_Root_CA.crt, mozilla/UTN_USERFirst_Hardware_Root_CA.crt, mozilla/ValiCert_Class_1_VA.crt, mozilla/ValiCert_Class_2_VA.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt, mozilla/VeriSign_Universal_Root_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Visa_eCommerce_Root.crt, mozilla/WellsSecure_Public_Root_Certificate_Authority.crt, mozilla/Wells_Fargo_Root_CA.crt, mozilla/XRamp_Global_CA_Root.crt, mozilla/certSIGN_ROOT_CA.crt, mozilla/ePKI_Root_Certification_Authority.crt, mozilla/thawte_Primary_Root_CA.crt, mozilla/thawte_Primary_Root_CA_-_G2.crt, mozilla/thawte_Primary_Root_CA_-_G3.crt, spi-inc.org/spi-ca-2003.crt, spi-inc.org/spi-cacert-2008.crt
+Owners: ca-certificates
+Variables:
+ enable_crts = cacert.org/cacert.org.crt, debconf.org/ca.crt, mozilla/A-Trust-nQual-03.crt, mozilla/ACEDICOM_Root.crt, mozilla/AC_Raíz_Certicámara_S.A..crt, mozilla/Actalis_Authentication_Root_CA.crt, mozilla/AddTrust_External_Root.crt, mozilla/AddTrust_Low-Value_Services_Root.crt, mozilla/AddTrust_Public_Services_Root.crt, mozilla/AddTrust_Qualified_Certificates_Root.crt, mozilla/AffirmTrust_Commercial.crt, mozilla/AffirmTrust_Networking.crt, mozilla/AffirmTrust_Premium.crt, mozilla/AffirmTrust_Premium_ECC.crt, mozilla/America_Online_Root_Certification_Authority_1.crt, mozilla/America_Online_Root_Certification_Authority_2.crt, mozilla/ApplicationCA_-_Japanese_Government.crt, mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt, mozilla/Baltimore_CyberTrust_Root.crt, mozilla/Buypass_Class_2_CA_1.crt, mozilla/Buypass_Class_2_Root_CA.crt, mozilla/Buypass_Class_3_CA_1.crt, mozilla/Buypass_Class_3_Root_CA.crt, mozilla/CA_Disig.crt, mozilla/CNNIC_ROOT.crt, mozilla/COMODO_Certification_Authority.crt, mozilla/COMODO_ECC_Certification_Authority.crt, mozilla/Camerfirma_Chambers_of_Commerce_Root.crt, mozilla/Camerfirma_Global_Chambersign_Root.crt, mozilla/Certigna.crt, mozilla/Certinomis_-_Autorité_Racine.crt, mozilla/Certplus_Class_2_Primary_CA.crt, mozilla/Certum_Root_CA.crt, mozilla/Certum_Trusted_Network_CA.crt, mozilla/Chambers_of_Commerce_Root_-_2008.crt, mozilla/ComSign_CA.crt, mozilla/ComSign_Secured_CA.crt, mozilla/Comodo_AAA_Services_root.crt, mozilla/Comodo_Secure_Services_root.crt, mozilla/Comodo_Trusted_Services_root.crt, mozilla/Cybertrust_Global_Root.crt, mozilla/DST_ACES_CA_X6.crt, mozilla/DST_Root_CA_X3.crt, mozilla/Deutsche_Telekom_Root_CA_2.crt, mozilla/DigiCert_Assured_ID_Root_CA.crt, mozilla/DigiCert_Global_Root_CA.crt, mozilla/DigiCert_High_Assurance_EV_Root_CA.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt, mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt, mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt, mozilla/EC-ACC.crt, mozilla/EE_Certification_Centre_Root_CA.crt, mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt, mozilla/Entrust.net_Secure_Server_CA.crt, mozilla/Entrust_Root_Certification_Authority.crt, mozilla/Equifax_Secure_CA.crt, mozilla/Equifax_Secure_Global_eBusiness_CA.crt, mozilla/Equifax_Secure_eBusiness_CA_1.crt, mozilla/Equifax_Secure_eBusiness_CA_2.crt, mozilla/Firmaprofesional_Root_CA.crt, mozilla/GTE_CyberTrust_Global_Root.crt, mozilla/GeoTrust_Global_CA.crt, mozilla/GeoTrust_Global_CA_2.crt, mozilla/GeoTrust_Primary_Certification_Authority.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt, mozilla/GeoTrust_Universal_CA.crt, mozilla/GeoTrust_Universal_CA_2.crt, mozilla/GlobalSign_Root_CA.crt, mozilla/GlobalSign_Root_CA_-_R2.crt, mozilla/GlobalSign_Root_CA_-_R3.crt, mozilla/Global_Chambersign_Root_-_2008.crt, mozilla/Go_Daddy_Class_2_CA.crt, mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt, mozilla/Hongkong_Post_Root_CA_1.crt, mozilla/IGC_A.crt, mozilla/Izenpe.com.crt, mozilla/Juur-SK.crt, mozilla/Microsec_e-Szigno_Root_CA.crt, mozilla/Microsec_e-Szigno_Root_CA_2009.crt, mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt, mozilla/NetLock_Business_=Class_B=_Root.crt, mozilla/NetLock_Express_=Class_C=_Root.crt, mozilla/NetLock_Notary_=Class_A=_Root.crt, mozilla/NetLock_Qualified_=Class_QA=_Root.crt, mozilla/Network_Solutions_Certificate_Authority.crt, mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt, mozilla/QuoVadis_Root_CA.crt, mozilla/QuoVadis_Root_CA_2.crt, mozilla/QuoVadis_Root_CA_3.crt, mozilla/RSA_Root_Certificate_1.crt, mozilla/RSA_Security_2048_v3.crt, mozilla/Root_CA_Generalitat_Valenciana.crt, mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt, mozilla/SecureSign_RootCA11.crt, mozilla/SecureTrust_CA.crt, mozilla/Secure_Global_CA.crt, mozilla/Security_Communication_EV_RootCA1.crt, mozilla/Security_Communication_RootCA2.crt, mozilla/Security_Communication_Root_CA.crt, mozilla/Sonera_Class_1_Root_CA.crt, mozilla/Sonera_Class_2_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt, mozilla/Starfield_Class_2_CA.crt, mozilla/Starfield_Root_Certificate_Authority_-_G2.crt, mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt, mozilla/StartCom_Certification_Authority.crt, mozilla/StartCom_Certification_Authority_G2.crt, mozilla/SwissSign_Gold_CA_-_G2.crt, mozilla/SwissSign_Platinum_CA_-_G2.crt, mozilla/SwissSign_Silver_CA_-_G2.crt, mozilla/Swisscom_Root_CA_1.crt, mozilla/T-TeleSec_GlobalRoot_Class_3.crt, mozilla/TC_TrustCenter_Class_2_CA_II.crt, mozilla/TC_TrustCenter_Class_3_CA_II.crt, mozilla/TC_TrustCenter_Universal_CA_I.crt, mozilla/TC_TrustCenter_Universal_CA_III.crt, mozilla/TDC_Internet_Root_CA.crt, mozilla/TDC_OCES_Root_CA.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt, mozilla/TWCA_Root_Certification_Authority.crt, mozilla/Taiwan_GRCA.crt, mozilla/Thawte_Premium_Server_CA.crt, mozilla/Thawte_Server_CA.crt, mozilla/Trustis_FPS_Root_CA.crt, mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt, mozilla/UTN_DATACorp_SGC_Root_CA.crt, mozilla/UTN_USERFirst_Email_Root_CA.crt, mozilla/UTN_USERFirst_Hardware_Root_CA.crt, mozilla/ValiCert_Class_1_VA.crt, mozilla/ValiCert_Class_2_VA.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt, mozilla/VeriSign_Universal_Root_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Visa_eCommerce_Root.crt, mozilla/WellsSecure_Public_Root_Certificate_Authority.crt, mozilla/Wells_Fargo_Root_CA.crt, mozilla/XRamp_Global_CA_Root.crt, mozilla/certSIGN_ROOT_CA.crt, mozilla/ePKI_Root_Certification_Authority.crt, mozilla/thawte_Primary_Root_CA.crt, mozilla/thawte_Primary_Root_CA_-_G2.crt, mozilla/thawte_Primary_Root_CA_-_G3.crt, spi-inc.org/spi-ca-2003.crt, spi-inc.org/spi-cacert-2008.crt
+
+Name: ca-certificates/new_crts
+Template: ca-certificates/new_crts
+Owners: ca-certificates
+Variables:
+ new_crts = 
+
+Name: ca-certificates/title
+Template: ca-certificates/title
+Owners: ca-certificates
+
+Name: ca-certificates/trust_new_crts
+Template: ca-certificates/trust_new_crts
+Value: yes
+Owners: ca-certificates
+
 Name: dash/sh
 Template: dash/sh
 Value: true
@@ -38,6 +60,104 @@ Name: debconf/priority
 Template: debconf/priority
 Value: high
 Owners: debconf
+
+Name: exim4-base/drec
+Template: exim4-base/drec
+Owners: exim4-base
+
+Name: exim4-daemon-light/drec
+Template: exim4-daemon-light/drec
+Owners: exim4-daemon-light
+
+Name: exim4/dc_eximconfig_configtype
+Template: exim4/dc_eximconfig_configtype
+Value: local delivery only; not on a network
+Owners: exim4-config
+
+Name: exim4/dc_local_interfaces
+Template: exim4/dc_local_interfaces
+Value: 127.0.0.1 ; ::1
+Owners: exim4-config
+
+Name: exim4/dc_localdelivery
+Template: exim4/dc_localdelivery
+Value: mbox format in /var/mail/
+Owners: exim4-config
+
+Name: exim4/dc_minimaldns
+Template: exim4/dc_minimaldns
+Value: false
+Owners: exim4-config
+
+Name: exim4/dc_other_hostnames
+Template: exim4/dc_other_hostnames
+Value: bakbeestje.fliphess.com
+Owners: exim4-config
+Flags: mailname
+Variables:
+ fqdn = 
+
+Name: exim4/dc_postmaster
+Template: exim4/dc_postmaster
+Value: 
+Owners: exim4-config
+
+Name: exim4/dc_readhost
+Template: exim4/dc_readhost
+Owners: exim4-config
+
+Name: exim4/dc_relay_domains
+Template: exim4/dc_relay_domains
+Owners: exim4-config
+
+Name: exim4/dc_relay_nets
+Template: exim4/dc_relay_nets
+Owners: exim4-config
+
+Name: exim4/dc_smarthost
+Template: exim4/dc_smarthost
+Owners: exim4-config
+
+Name: exim4/exim4-config-title
+Template: exim4/exim4-config-title
+Owners: exim4-config
+
+Name: exim4/hide_mailname
+Template: exim4/hide_mailname
+Owners: exim4-config
+
+Name: exim4/mailname
+Template: exim4/mailname
+Value: bakbeestje.fliphess.com
+Owners: exim4-config
+
+Name: exim4/no_config
+Template: exim4/no_config
+Owners: exim4-config
+
+Name: exim4/purge_spool
+Template: exim4/purge_spool
+Owners: exim4-base
+
+Name: exim4/use_split_config
+Template: exim4/use_split_config
+Value: false
+Owners: exim4-config
+
+Name: fontconfig/enable_bitmaps
+Template: fontconfig/enable_bitmaps
+Value: false
+Owners: fontconfig-config
+
+Name: fontconfig/hinting_type
+Template: fontconfig/hinting_type
+Value: Native
+Owners: fontconfig-config
+
+Name: fontconfig/subpixel_rendering
+Template: fontconfig/subpixel_rendering
+Value: Automatic
+Owners: fontconfig-config
 
 Name: glibc/disable-screensaver
 Template: glibc/disable-screensaver
@@ -96,6 +216,11 @@ Name: libpam0g/xdm-needs-restart
 Template: libpam0g/xdm-needs-restart
 Owners: libpam0g:amd64
 
+Name: libpaper/defaultpaper
+Template: libpaper/defaultpaper
+Value: a4
+Owners: libpaper1, libpaper1:amd64
+
 Name: libraries/restart-without-asking
 Template: libraries/restart-without-asking
 Owners: libc6, libc6:amd64, libpam0g:amd64
@@ -116,6 +241,74 @@ Name: man-db/install-setuid
 Template: man-db/install-setuid
 Value: false
 Owners: man-db
+
+Name: mdadm/autocheck
+Template: mdadm/autocheck
+Value: true
+Owners: mdadm
+
+Name: mdadm/autostart
+Template: mdadm/autostart
+Owners: mdadm
+
+Name: mdadm/initrdstart
+Template: mdadm/initrdstart
+Value: all
+Owners: mdadm
+Variables:
+ msg = If the system's root file system is located on an MD array (RAID), it needs to be started early during the boot sequence. If it is located on a logical volume (LVM), which is on MD, all constituent arrays need to be started.\n\nIf you know exactly which arrays are needed to bring up the root file system, and you want to postpone starting all other arrays to a later point in the boot sequence, enter the arrays to start here. Alternatively, enter 'all' to simply start all available arrays.\n\nIf you do not need or want to start any arrays for the root file system, leave the answer blank (or enter 'none'). This may be the case if you are using kernel autostart or do not need any arrays to boot.
+
+Name: mdadm/initrdstart_msg_errblock
+Template: mdadm/initrdstart_msg_errblock
+Owners: mdadm
+
+Name: mdadm/initrdstart_msg_errconf
+Template: mdadm/initrdstart_msg_errconf
+Owners: mdadm
+
+Name: mdadm/initrdstart_msg_errexist
+Template: mdadm/initrdstart_msg_errexist
+Owners: mdadm
+
+Name: mdadm/initrdstart_msg_errmd
+Template: mdadm/initrdstart_msg_errmd
+Owners: mdadm
+
+Name: mdadm/initrdstart_msg_intro
+Template: mdadm/initrdstart_msg_intro
+Owners: mdadm
+
+Name: mdadm/initrdstart_notinconf
+Template: mdadm/initrdstart_notinconf
+Owners: mdadm
+
+Name: mdadm/mail_to
+Template: mdadm/mail_to
+Value: root
+Owners: mdadm
+
+Name: mdadm/start_daemon
+Template: mdadm/start_daemon
+Value: true
+Owners: mdadm
+
+Name: ssh/disable_cr_auth
+Template: ssh/disable_cr_auth
+Owners: openssh-server
+
+Name: ssh/encrypted_host_key_but_no_keygen
+Template: ssh/encrypted_host_key_but_no_keygen
+Owners: openssh-server
+
+Name: ssh/use_old_init_script
+Template: ssh/use_old_init_script
+Value: true
+Owners: openssh-server
+Flags: seen
+
+Name: ssh/vulnerable_host_keys
+Template: ssh/vulnerable_host_keys
+Owners: openssh-server
 
 Name: tasksel/desktop
 Template: tasksel/desktop
@@ -192,6 +385,26 @@ Owners: tzdata
 Name: tzdata/Zones/US
 Template: tzdata/Zones/US
 Owners: tzdata
+
+Name: ucf/changeprompt
+Template: ucf/changeprompt
+Owners: ucf
+
+Name: ucf/changeprompt_threeway
+Template: ucf/changeprompt_threeway
+Owners: ucf
+
+Name: ucf/conflicts_found
+Template: ucf/conflicts_found
+Owners: ucf
+
+Name: ucf/show_diff
+Template: ucf/show_diff
+Owners: ucf
+
+Name: ucf/title
+Template: ucf/title
+Owners: ucf
 
 Name: udev/new_kernel_needed
 Template: udev/new_kernel_needed
