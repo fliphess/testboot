@@ -1,0 +1,6 @@
+aa935f678816bd425cc541e12cb3333f  sbin/bootlogd
+62ff177307de07c963dc512654148375  usr/share/doc/bootlogd/changelog.Debian.gz
+d3dceb86c27a74dc46bda1df54c9e973  usr/share/doc/bootlogd/changelog.gz
+81c64c33a334d43ebc2a7d8bdf95242c  usr/share/doc/bootlogd/copyright
+3852a88fc43298b2848f1d2ad636582e  usr/share/lintian/overrides/bootlogd
+6ecab97109711186aa37ca4a1e6159a9  usr/share/man/man8/bootlogd.8.gz

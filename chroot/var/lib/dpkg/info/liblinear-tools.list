@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/bin
+/usr/bin/liblinear-train
+/usr/bin/liblinear-predict
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/liblinear-train.1.gz
+/usr/share/man/man1/liblinear-predict.1.gz
+/usr/share/doc
+/usr/share/doc/liblinear-tools
+/usr/share/doc/liblinear-tools/README.Debian
+/usr/share/doc/liblinear-tools/changelog.Debian.gz
+/usr/share/doc/liblinear-tools/copyright
+/usr/share/doc/liblinear-tools/examples
+/usr/share/doc/liblinear-tools/examples/heart_scale

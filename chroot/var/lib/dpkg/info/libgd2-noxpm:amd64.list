@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgd2-noxpm
+/usr/share/doc/libgd2-noxpm/README.html
+/usr/share/doc/libgd2-noxpm/readme.jpn
+/usr/share/doc/libgd2-noxpm/copyright
+/usr/share/doc/libgd2-noxpm/buildinfo_amd64.gz
+/usr/share/doc/libgd2-noxpm/README.gz
+/usr/share/doc/libgd2-noxpm/NEWS.gz
+/usr/share/doc/libgd2-noxpm/changelog.Debian.gz
+/usr/share/doc/libgd2-noxpm/changelog.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libgd.so.2.0.0
+/usr/lib/x86_64-linux-gnu/libgd.so.2

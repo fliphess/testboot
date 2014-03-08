@@ -1,0 +1,8 @@
+c6ea10ea6dc8b4b635513b264200d2ac  usr/bin/liblinear-predict
+ccc030146629dac2c904280fa318433d  usr/bin/liblinear-train
+e526a8fdf6c9fb91ae84aec03ac33400  usr/share/doc/liblinear-tools/README.Debian
+8a49de2849f635edd3fb7d291a89ef47  usr/share/doc/liblinear-tools/changelog.Debian.gz
+7588886fef134f012f8d5fb1591e3de1  usr/share/doc/liblinear-tools/copyright
+8d29846f56e4b9ea0f4bf9b8083ecef8  usr/share/doc/liblinear-tools/examples/heart_scale
+48f1854b361ca66c01c71d52a5525b80  usr/share/man/man1/liblinear-predict.1.gz
+7fee0af121d543f0b99fea2974ebf0e5  usr/share/man/man1/liblinear-train.1.gz
