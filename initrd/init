@@ -7,7 +7,7 @@ echo "Creating directories"
 [ -d /sys ] || mkdir /sys
 [ -d /proc ] || mkdir /proc
 [ -d /tmp ] || mkdir /tmp
-mkdir -p /var/lock
+[ -d /var/lock ] || mkdir -p /var/lock
 
 echo "Mounting the essential"
 mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
