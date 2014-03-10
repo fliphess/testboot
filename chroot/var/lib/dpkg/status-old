@@ -857,32 +857,6 @@ Description: GNU C preprocessor
  require the preprocessor but not the compiler.
 Homepage: http://gcc.gnu.org/
 
-Package: gnuplot-nox
-Status: install ok installed
-Priority: optional
-Section: math
-Installed-Size: 2314
-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Source: gnuplot
-Version: 4.6.0-8
-Depends: libc6 (>= 2.11), libcairo2 (>= 1.6.0), libedit2 (>= 2.11-20080614-1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libglib2.0-0 (>= 2.12.0), liblua5.1-0, libpango1.0-0 (>= 1.14.0)
-Recommends: groff, fonts-liberation
-Suggests: gnuplot-doc
-Conflicts: gnuplot-qt, gnuplot-x11
-Description: Command-line driven interactive plotting program. No-X package
- Gnuplot is a portable command-line driven interactive data and function
- plotting utility that supports lots of output formats, including drivers
- for many printers, (La)TeX, (x)fig, Postscript, and so on. The X11-output
- is packaged in gnuplot-x11. The QT-output is packaged in gnuplot-qt.
- .
- Data files and self-defined functions can be manipulated by the internal
- C-like language. Can perform smoothing, spline-fitting, or nonlinear fits,
- and can work with complex numbers.
- .
- This package is for working without an X server.
-Homepage: http://gnuplot.sourceforge.net/
-
 Package: procps
 Status: install ok installed
 Priority: important
@@ -1491,7 +1465,7 @@ Description: GDK Pixbuf library
 Homepage: http://www.gtk.org/
 
 Package: lvm2
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: admin
 Installed-Size: 1121
@@ -1502,8 +1476,8 @@ Version: 2.02.95-8
 Depends: libc6 (>= 2.4), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.74), libreadline5 (>= 5.2), libudev0 (>= 0.140), lsb-base, dmsetup (>> 2:1.02.47), initscripts (>= 2.88dsf-13.3)
 Breaks: initramfs-tools (<< 0.99)
 Conffiles:
- /etc/lvm/lvm.conf 6c7803e3803ffc7369b13b4ea62cef8c
- /etc/init.d/lvm2 82aa3ab5c2c317d15b4a479f6bd2cde3
+ /etc/lvm/lvm.conf newconffile
+ /etc/init.d/lvm2 newconffile
 Description: Linux Logical Volume Manager
  This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
  supports enterprise level volume management of disk and disk subsystems
@@ -2559,38 +2533,6 @@ Pre-Depends: multiarch-support
 Description: block device id library
  The device mounting library, used by mount and mount helpers.
 Homepage: http://userweb.kernel.org/~kzak/util-linux/
-
-Package: imagemagick-common
-Status: install ok installed
-Priority: optional
-Section: graphics
-Installed-Size: 320
-Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Architecture: all
-Multi-Arch: foreign
-Source: imagemagick
-Version: 8:6.7.7.10-5+deb7u2
-Pre-Depends: dpkg (>= 1.15.7.2)
-Conffiles:
- /etc/ImageMagick/coder.xml 184715fdf06bd9fc835dc62929e8d36f
- /etc/ImageMagick/colors.xml 27d44e4d5e96d3db5a8cf834b44b69a5
- /etc/ImageMagick/log.xml 63b78f245752f5332d587e8f0917a085
- /etc/ImageMagick/magic.xml 04b219d820811a6cb1bc7af03b52b626
- /etc/ImageMagick/mime.xml 905c61059c1aeb1220d844ee71113a32
- /etc/ImageMagick/policy.xml 0e8dd72c8d56a60e100c73c250c1ebd7
- /etc/ImageMagick/quantization-table.xml 498ec5249155260bd287115df0949ffe
- /etc/ImageMagick/thresholds.xml 04d4a80687f7073ae81c91907889db42
- /etc/ImageMagick/type.xml d0caa5ce47ac32e40980d1ee7bf882eb
- /etc/ImageMagick/type-dejavu.xml 09bd5cf793568d2a5e185d475bc45b96
- /etc/ImageMagick/type-ghostscript.xml d7fdef0a5e8ff7446600ede4e04f6acf
- /etc/ImageMagick/type-windows.xml 21d3ea0e2b51ded4e3870d401897a9d8
- /etc/ImageMagick/delegates.xml d0903da7ea758d00912d8bee445d934d
-Description: image manipulation programs -- infrastructure
- imagemagick-common contains the filesystem infrastructure required for
- further installation of imagemagick in any configuration; it does not provide
- a full installation of binaries, libraries, and utilities
- required to run imagemagick.
-Homepage: http://www.imagemagick.org/
 
 Package: zlib1g
 Status: install ok installed

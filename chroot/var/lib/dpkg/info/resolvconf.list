@@ -40,7 +40,5 @@
 /usr/share/doc/resolvconf/README.gz
 /usr/share/doc/resolvconf/changelog.gz
 /usr/share/man
-/usr/share/man/man8
 /usr/share/man/man8/resolvconf.8.gz
-/usr/share/man/man5
 /usr/share/man/man5/interface-order.5.gz

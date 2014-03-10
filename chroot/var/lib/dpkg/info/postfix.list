@@ -44,7 +44,6 @@
 /usr/share/doc/postfix/changelog.Debian.gz
 /usr/share/doc/postfix/README.Debian
 /usr/share/man
-/usr/share/man/man8
 /usr/share/man/man8/error.8postfix.gz
 /usr/share/man/man8/bounce.8postfix.gz
 /usr/share/man/man8/smtp.8postfix.gz
@@ -75,7 +74,6 @@
 /usr/share/man/man8/spawn.8postfix.gz
 /usr/share/man/man8/postfix-add-filter.8.gz
 /usr/share/man/man8/qmgr.8postfix.gz
-/usr/share/man/man5
 /usr/share/man/man5/postfix-wrapper.5.gz
 /usr/share/man/man5/mysql_table.5.gz
 /usr/share/man/man5/canonical.5.gz
