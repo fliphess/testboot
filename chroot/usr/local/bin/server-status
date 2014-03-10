@@ -34,6 +34,8 @@ def getip():
     url = [f.split('fetch=')[1] for f in cmdline.split() if "fetch=" in f]
     if url: 
         host = url[0].strip('http://').split('/')[0]
+    else:
+	host = '8.8.8.8'
 
     if host:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

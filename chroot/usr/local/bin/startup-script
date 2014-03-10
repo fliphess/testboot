@@ -1,5 +1,7 @@
 #!/bin/bash
-sleep 20
-clear
-/usr/local/bin/server-status
-cat
+while true; 
+do 
+	clear
+	/usr/local/bin/server-status
+	sleep 20
+done
