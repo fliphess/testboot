@@ -1465,7 +1465,7 @@ Description: GDK Pixbuf library
 Homepage: http://www.gtk.org/
 
 Package: lvm2
-Status: install ok unpacked
+Status: install ok installed
 Priority: optional
 Section: admin
 Installed-Size: 1121
@@ -1476,8 +1476,8 @@ Version: 2.02.95-8
 Depends: libc6 (>= 2.4), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.74), libreadline5 (>= 5.2), libudev0 (>= 0.140), lsb-base, dmsetup (>> 2:1.02.47), initscripts (>= 2.88dsf-13.3)
 Breaks: initramfs-tools (<< 0.99)
 Conffiles:
- /etc/lvm/lvm.conf newconffile
- /etc/init.d/lvm2 newconffile
+ /etc/lvm/lvm.conf 6c7803e3803ffc7369b13b4ea62cef8c
+ /etc/init.d/lvm2 82aa3ab5c2c317d15b4a479f6bd2cde3
 Description: Linux Logical Volume Manager
  This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
  supports enterprise level volume management of disk and disk subsystems

@@ -175,56 +175,6 @@ Template: man-db/install-setuid
 Value: false
 Owners: man-db
 
-Name: mdadm/autocheck
-Template: mdadm/autocheck
-Value: true
-Owners: mdadm
-
-Name: mdadm/autostart
-Template: mdadm/autostart
-Owners: mdadm
-
-Name: mdadm/initrdstart
-Template: mdadm/initrdstart
-Value: all
-Owners: mdadm
-Variables:
- msg = If the system's root file system is located on an MD array (RAID), it needs to be started early during the boot sequence. If it is located on a logical volume (LVM), which is on MD, all constituent arrays need to be started.\n\nIf you know exactly which arrays are needed to bring up the root file system, and you want to postpone starting all other arrays to a later point in the boot sequence, enter the arrays to start here. Alternatively, enter 'all' to simply start all available arrays.\n\nIf you do not need or want to start any arrays for the root file system, leave the answer blank (or enter 'none'). This may be the case if you are using kernel autostart or do not need any arrays to boot.
-
-Name: mdadm/initrdstart_msg_errblock
-Template: mdadm/initrdstart_msg_errblock
-Owners: mdadm
-
-Name: mdadm/initrdstart_msg_errconf
-Template: mdadm/initrdstart_msg_errconf
-Owners: mdadm
-
-Name: mdadm/initrdstart_msg_errexist
-Template: mdadm/initrdstart_msg_errexist
-Owners: mdadm
-
-Name: mdadm/initrdstart_msg_errmd
-Template: mdadm/initrdstart_msg_errmd
-Owners: mdadm
-
-Name: mdadm/initrdstart_msg_intro
-Template: mdadm/initrdstart_msg_intro
-Owners: mdadm
-
-Name: mdadm/initrdstart_notinconf
-Template: mdadm/initrdstart_notinconf
-Owners: mdadm
-
-Name: mdadm/mail_to
-Template: mdadm/mail_to
-Value: root
-Owners: mdadm
-
-Name: mdadm/start_daemon
-Template: mdadm/start_daemon
-Value: true
-Owners: mdadm
-
 Name: postfix/bad_recipient_delimiter
 Template: postfix/bad_recipient_delimiter
 Owners: postfix

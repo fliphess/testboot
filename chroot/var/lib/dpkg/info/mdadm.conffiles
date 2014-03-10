@@ -1,7 +1,0 @@
-/etc/init.d/mdadm-raid
-/etc/init.d/mdadm-waitidle
-/etc/init.d/mdadm
-/etc/cron.daily/mdadm
-/etc/cron.d/mdadm
-/etc/logcheck/ignore.d.server/mdadm
-/etc/logcheck/violations.d/mdadm

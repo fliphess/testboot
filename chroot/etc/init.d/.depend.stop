@@ -1,12 +1,10 @@
-TARGETS = postfix mdadm resolvconf urandom sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot mdadm-raid mdadm-waitidle halt reboot
-sendsigs: postfix mdadm
-rsyslog: sendsigs postfix mdadm
+TARGETS = postfix resolvconf urandom sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
+sendsigs: postfix
+rsyslog: sendsigs postfix
 umountnfs.sh: rsyslog sendsigs postfix
 hwclock.sh: rsyslog
 networking: umountnfs.sh postfix
-umountfs: resolvconf umountnfs.sh postfix networking urandom mdadm hwclock.sh
+umountfs: resolvconf umountnfs.sh postfix networking urandom hwclock.sh
 umountroot: umountfs
-mdadm-raid: umountfs mdadm
-mdadm-waitidle: umountroot
-halt: umountroot mdadm-waitidle
-reboot: umountroot mdadm-waitidle
+halt: umountroot
+reboot: umountroot

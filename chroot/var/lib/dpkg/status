@@ -1464,28 +1464,6 @@ Description: GDK Pixbuf library
   - Simple animation loading (ie. animated GIFs)
 Homepage: http://www.gtk.org/
 
-Package: lvm2
-Status: install ok installed
-Priority: optional
-Section: admin
-Installed-Size: 1121
-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Multi-Arch: foreign
-Version: 2.02.95-8
-Depends: libc6 (>= 2.4), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.74), libreadline5 (>= 5.2), libudev0 (>= 0.140), lsb-base, dmsetup (>> 2:1.02.47), initscripts (>= 2.88dsf-13.3)
-Breaks: initramfs-tools (<< 0.99)
-Conffiles:
- /etc/lvm/lvm.conf 6c7803e3803ffc7369b13b4ea62cef8c
- /etc/init.d/lvm2 82aa3ab5c2c317d15b4a479f6bd2cde3
-Description: Linux Logical Volume Manager
- This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
- supports enterprise level volume management of disk and disk subsystems
- by grouping arbitrary disks into volume groups. The total capacity of
- volume groups can be allocated to logical volumes, which are accessed as
- regular block devices.
-Homepage: http://sources.redhat.com/lvm2/
-
 Package: libquadmath0
 Status: install ok installed
 Priority: optional
@@ -5599,34 +5577,6 @@ Description: terminal-based package manager
  aptitude is also Y2K-compliant, non-fattening, naturally cleansing,
  and housebroken.
 Homepage: http://aptitude.alioth.debian.org/
-
-Package: mdadm
-Status: install ok installed
-Priority: optional
-Section: admin
-Installed-Size: 1042
-Maintainer: Debian mdadm maintainers <pkg-mdadm-devel@lists.alioth.debian.org>
-Architecture: amd64
-Version: 3.2.5-5
-Replaces: mdctl
-Depends: libc6 (>= 2.3.3), udev | makedev, debconf (>= 1.4.72), lsb-base (>= 3.1-6), initscripts (>= 2.88dsf-13.3)
-Recommends: default-mta | mail-transport-agent, module-init-tools
-Breaks: initramfs-tools (<< 0.65), mdctl (<< 0.7.2), raidtools2 (<< 1.00.3-12.1)
-Conffiles:
- /etc/init.d/mdadm-raid 43f56540a30c0b4a66d0c11642872acf
- /etc/init.d/mdadm-waitidle ff8f134084409dbbf70d6fff2d35f729
- /etc/init.d/mdadm 33b52905eb26a37b736bef9a18a6c5a9
- /etc/cron.daily/mdadm 04839987aec89ae101d5e1f47abd2be4
- /etc/cron.d/mdadm e2384a232bdaaf9ec65173d5282e40fe
- /etc/logcheck/ignore.d.server/mdadm 5eeaf5c5c7dc0291a986e43004dfd495
- /etc/logcheck/violations.d/mdadm efd87cec251921ce0642171eae5f3b73
-Description: tool to administer Linux MD arrays (software RAID)
- The mdadm utility can be used to create, manage, and monitor MD
- (multi-disk) arrays for software RAID or multipath I/O.
- .
- This package automatically configures mdadm to assemble arrays during the
- system startup process. If not needed, this functionality can be disabled.
-Homepage: http://neil.brown.name/blog/mdadm
 
 Package: libncursesw5
 Status: install ok installed

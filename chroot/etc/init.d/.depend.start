@@ -1,13 +1,12 @@
-TARGETS = rsyslog killprocs bootlogs motd postfix mdadm single ntp cron dbus ssh rsync stop-bootlogd rc.local rmnologin
+TARGETS = rsyslog killprocs bootlogs motd postfix single ntp cron dbus ssh rsync stop-bootlogd rc.local rmnologin
 INTERACTIVE =
 postfix: rsyslog
-mdadm: rsyslog
 single: killprocs bootlogs motd
 ntp: rsyslog
 cron: rsyslog
 dbus: rsyslog
 ssh: rsyslog
 rsync: rsyslog
-stop-bootlogd: rsyslog postfix mdadm bootlogs motd ntp cron dbus ssh rsync
-rc.local: rsyslog postfix mdadm bootlogs motd ntp cron dbus ssh rsync
-rmnologin: rsyslog postfix mdadm bootlogs motd ntp cron dbus ssh rsync
+stop-bootlogd: rsyslog postfix bootlogs motd ntp cron dbus ssh rsync
+rc.local: rsyslog postfix bootlogs motd ntp cron dbus ssh rsync
+rmnologin: rsyslog postfix bootlogs motd ntp cron dbus ssh rsync
