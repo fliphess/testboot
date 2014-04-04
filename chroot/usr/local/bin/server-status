@@ -1,19 +1,20 @@
 #!/usr/bin/env python
 import os
+import os.path
 import sys
 import socket
 import subprocess
 
 start_msg = """
                ___
-         |     | | 
-        / \    |R| 
-       |--o|===|O| 
-       |---|   |C|  Distro:   %s
-      /     \  |K|  Kernel:   %s
-     |       | |E|  Arch:     %s
-     |       |=|T|  OS:       %s
-     |       | | |
+         |     |P| 
+        / \    |E| 
+       |--o|===|R| 
+       |---|   |F|  Distro:   %s
+      /     \  |M|  Kernel:   %s
+     |       | |A|  Arch:     %s
+     |       |=|R|  OS:       %s
+     |       | |K|
      |_______| |_|
       |@| |@|  | |
     ___________|_|_
@@ -34,15 +35,28 @@ def getip():
     s.connect((host, 80))
     return s.getsockname()[0]
 
+def get_perfstatus():
+    perfstatus = ''
+    statusfile = '/tmp/perfstatus'
+    if os.path.isfile(statusfile):
+        with open(statusfile) as fh:
+            perfstatus = fh.read()
 
-info = run('/usr/bin/w').split('\n')[0]
-distro, kernel, arch, os = run('uname -mros').split()
-ip = getip()
-hostname = socket.gethostname()
 
-print start_msg % (distro, kernel, arch, os, info)
-print "    Rocket In Mem Linux Boot"
-print "    To login press ALT ->\n"
-print "    Hostname:           %s" % socket.gethostname()
-print "    IP:                 %s" % getip()
-print "\n"  
+def main():
+    info = run('/usr/bin/w').split('\n')[0]
+    distro, kernel, arch, operatingsystem = run('uname -mros').split()
+    ip = getip()
+    hostname = socket.gethostname()
+
+    print start_msg % (distro, kernel, arch, operatingsystem, info)
+    print "    Byte perftester"
+    print "    To login press ALT ->\n"
+    print "    Hostname:           %s" % socket.gethostname()
+    print "    IP:                 %s" % getip()
+    print "    Status:             %s" % get_perfstatus()
+    print "\n"  
+
+
+if __name__ == "__main__":
+    main()

@@ -1,7 +1,12 @@
 #!/bin/bash
+
+# start the perfmark
+nohup /usr/local/bin/perfmark > /var/log/perftest.log 2>&1 &
+
+# run status loop
 while true; 
 do 
 	clear
 	/usr/local/bin/server-status
-	sleep 20
+	sleep 2
 done
