@@ -1,0 +1,2 @@
+#!/bin/bash 
+apt-get install -y --assume-yes sysbench stress bonnie++ fsmark tiobench runlim  pipebench mbw collectl nmon
