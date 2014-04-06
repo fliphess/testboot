@@ -1,2 +1,31 @@
-#!/bin/bash 
-apt-get install -y --assume-yes sysbench stress bonnie++ fsmark tiobench runlim  pipebench mbw collectl nmon
+#!/bin/bash -x
+PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin'
+function die() { echo -e "Error in $0: $1\n"; exit 1; }
+function log() { echo -e "Now running: $1" | tee /tmp/perfstatus; return 0; }
+
+# test for superuser
+[ $(whoami) == "root" ] || die "This script only runs as root"
+
+
+log "Installing packages"
+apt-get install -y --assume-yes sysbench stress bonnie++ tiobench runlim  pipebench mbw collectl nmon
+
+log "Starting benchmark loop"
+while true
+do
+    log "Stresstest is running using the stress binary"
+    stress --cpu 8 --io 4 --vm 2 --hdd 4 --timeout 30s --verbose || die "Failed to setup stress"
+
+    log "Disk performance test is running using bonnie++"
+    bonnie -u root -p=19
+
+    log "Starting sysbench"
+    for TYPE in cpu memory threads mutex oltp
+    do
+	    log "Sysbench for type $TYPE is running"
+	    sysbench --test="$TYPE" run --num-threads=20 --init-rng="on" --debug --validate="on"
+    done
+    log "Starting over with stress tests"
+done
+    
+

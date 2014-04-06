@@ -28,6 +28,7 @@ chroot/etc/udev/rules.d/70*
 
 chroot/var/tmp/
 chroot/var/log/
+chroot/var/run/*
 chroot/var/spool/*
 chroot/var/cache/apt/
 chroot/var/cache/apt/archives/
