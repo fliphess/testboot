@@ -35,10 +35,10 @@ MAINCC=		$(CC)
 LINKCC=		$(PURIFY) $(MAINCC)
 AR=		ar
 RANLIB=		ranlib
-SVNVERSION=	echo Unversioned directory
-HGVERSION=	
-HGTAG=		
-HGBRANCH=	
+SVNVERSION=	svnversion $(srcdir)
+HGVERSION=	hg id -i $(srcdir)
+HGTAG=		hg id -t $(srcdir)
+HGBRANCH=	hg id -b $(srcdir)
 
 GNULD=          yes
 

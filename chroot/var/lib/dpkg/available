@@ -427,15 +427,15 @@ Description: X11 miscellaneous micro-utility library
 Package: libxml2
 Priority: standard
 Section: libs
-Installed-Size: 1778
+Installed-Size: 1773
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
-Version: 2.8.0+dfsg1-7+nmu2
+Version: 2.8.0+dfsg1-7+nmu3
 Depends: libc6 (>= 2.7), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
 Pre-Depends: multiarch-support
 Recommends: xml-core
-Size: 904840
+Size: 903940
 Description: GNOME XML library
  XML is a metalanguage to let you design your own markup language.
  A regular markup language defines a way to describe information in
@@ -498,16 +498,16 @@ Homepage: http://www.gnupg.org
 Package: libssl1.0.0
 Priority: important
 Section: libs
-Installed-Size: 3037
+Installed-Size: 3003
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: openssl
-Version: 1.0.1e-2+deb7u4
+Version: 1.0.1e-2+deb7u7
 Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: multiarch-support
 Filename: pool/main/o/openssl/libssl1.0.0_1.0.1e-2+deb7u4_amd64.deb
-Size: 1256012
+Size: 1254546
 MD5sum: a805b07fd1e27bb04f00796cca9ef412
 Description: SSL shared libraries
  libssl and libcrypto shared libraries needed by programs like
@@ -522,9 +522,9 @@ Installed-Size: 29
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Architecture: all
 Source: openssh
-Version: 1:6.0p1-4
+Version: 1:6.0p1-4+deb7u1
 Depends: openssh-client, openssh-server
-Size: 1240
+Size: 1244
 Description: secure shell client and server (metapackage)
  This metapackage is a convenient way to install both the OpenSSH client
  and the OpenSSH server. It provides nothing in and of itself, so you
@@ -824,13 +824,13 @@ Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.26.0-1+wheezy8
+Version: 7.26.0-1+wheezy9
 Replaces: libcurl4-gnutls
 Depends: libc6 (>= 2.11), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Conflicts: libcurl4-gnutls
-Size: 321102
+Size: 321228
 Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
  libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
  FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, POP3, POP3S, RTMP,
@@ -1155,10 +1155,10 @@ Installed-Size: 3077
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Source: python2.7
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
 Replaces: python2.7 (<< 2.6)
-Depends: python2.7 (= 2.7.3-6), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.2.0)
-Size: 1207616
+Depends: python2.7 (= 2.7.3-6+deb7u2), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.2.0)
+Size: 1207358
 Description: Shared Python runtime library (version 2.7)
  Version 2.7 of the high-level, interactive object oriented language,
  includes an extensive class library with lots of goodies for
@@ -1509,13 +1509,13 @@ Homepage: http://www.vim.org/
 Package: openssl
 Priority: optional
 Section: utils
-Installed-Size: 1081
+Installed-Size: 1008
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1.0.1e-2+deb7u4
-Depends: libc6 (>= 2.7), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
+Version: 1.0.1e-2+deb7u7
+Depends: libc6 (>= 2.7), libssl1.0.0 (>= 1.0.1e-2+deb7u5), zlib1g (>= 1:1.1.4)
 Suggests: ca-certificates
-Size: 699554
+Size: 699408
 Description: Secure Socket Layer (SSL) binary and related cryptographic tools
  This package contains the openssl binary and related tools.
  .
@@ -1904,16 +1904,16 @@ Description: Basic TCP/IP networking system
 Package: libmagic1
 Priority: standard
 Section: libs
-Installed-Size: 2444
+Installed-Size: 2445
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Multi-Arch: same
 Source: file
-Version: 5.11-2+deb7u1
+Version: 5.11-2+deb7u3
 Depends: libc6 (>= 2.8), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Suggests: file
-Size: 201956
+Size: 202306
 Description: File type determination library using "magic" numbers
  This library can be used to classify files according to magic number tests. It
  implements the core functionality of the file command.
@@ -2010,24 +2010,25 @@ SHA256: 1c84a6bd9c3c0d23313b5bc9ee2cee6b3a70d0235b8237a36d819a8100e320e8
 
 Package: tzdata
 Priority: required
-Section: localization
-Installed-Size: 1463
+Section: libs
+Installed-Size: 1465
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: all
 Multi-Arch: foreign
-Version: 2013i-0wheezy1
+Version: 2014a-0wheezy1
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Provides: tzdata-wheezy
 Depends: debconf (>= 0.5) | debconf-2.0
 Filename: pool/main/t/tzdata/tzdata_2013i-0wheezy1_all.deb
-Size: 449682
+Size: 445244
 MD5sum: e4ad161a90e0f74ede6d1e74980bb071
 Description: time zone and daylight-saving time data
+ This package contains data required for the implementation of
+ standard local time for many representative locations around the
+ globe. It is updated periodically to reflect changes made by
+ political bodies to time zone boundaries, UTC offsets, and
+ daylight-saving rules.
 Homepage: http://www.iana.org/time-zones
-Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
-Tag: role::app-data, use::timekeeping
-SHA1: c06ad5c68805732037e6b1cfb23379817a9cc86d
-SHA256: bcdffaa98034872064840238631e07fc35a6dd6d1eeda434936fd066d921ad3c
 
 Package: libudev0
 Priority: important
@@ -2501,16 +2502,16 @@ Description: High-level library for managing Debian package information
 Package: linux-libc-dev
 Priority: optional
 Section: devel
-Installed-Size: 2920
+Installed-Size: 2793
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 3.2.54-2
+Version: 3.2.57-3
 Replaces: linux-kernel-headers
 Provides: linux-kernel-headers
 Conflicts: linux-kernel-headers
-Size: 819046
+Size: 822626
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  headers are used by the installed headers for GNU libc and other system
@@ -2633,9 +2634,9 @@ Installed-Size: 109
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 5.11-2+deb7u1
-Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u1), zlib1g (>= 1:1.1.4)
-Size: 51908
+Version: 5.11-2+deb7u3
+Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u3), zlib1g (>= 1:1.1.4)
+Size: 52120
 Description: Determines file type using "magic" numbers
  File tests each argument in an attempt to classify it. There are three sets of
  tests, performed in this order: filesystem tests, magic number tests, and
@@ -2694,11 +2695,11 @@ Maintainer: Oleksandr Moskalenko <malex@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: lcms2
-Version: 2.2+git20110628-2.2
+Version: 2.2+git20110628-2.2+deb7u1
 Depends: libc6 (>= 2.7)
 Pre-Depends: multiarch-support
 Suggests: liblcms2-utils
-Size: 143468
+Size: 143884
 Description: Little CMS 2 color management library
  LittleCMS 2 intends to be a small-footprint color management engine, with
  special focus on accuracy and performance. It uses the International Color
@@ -2961,14 +2962,14 @@ Section: python
 Installed-Size: 8841
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
 Replaces: python-profiler (<= 2.7.1-2)
 Provides: python-argparse, python2.7-argparse, python2.7-celementtree, python2.7-cjkcodecs, python2.7-ctypes, python2.7-elementtree, python2.7-profiler, python2.7-wsgiref
-Depends: python2.7-minimal (= 2.7.3-6), mime-support, libbz2-1.0, libc6 (>= 2.11), libdb5.1, libexpat1 (>= 2.1~beta3), libgcc1 (>= 1:4.1.1), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5
+Depends: python2.7-minimal (= 2.7.3-6+deb7u2), mime-support, libbz2-1.0, libc6 (>= 2.11), libdb5.1, libexpat1 (>= 2.1~beta3), libgcc1 (>= 1:4.1.1), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5
 Suggests: python2.7-doc, binutils
 Breaks: python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)
 Conflicts: python-profiler (<= 2.7.1-2)
-Size: 2729276
+Size: 2727954
 Description: Interactive high-level object-oriented language (version 2.7)
  Version 2.7 of the high-level, interactive object oriented language,
  includes an extensive class library with lots of goodies for
@@ -3103,11 +3104,11 @@ Section: web
 Installed-Size: 364
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
-Version: 7.26.0-1+wheezy8
+Version: 7.26.0-1+wheezy9
 Replaces: curl-ssl
 Provides: curl-ssl
-Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy8), zlib1g (>= 1:1.1.4)
-Size: 269458
+Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy9), zlib1g (>= 1:1.1.4)
+Size: 269554
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
  DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, POP3, POP3S,
@@ -3127,19 +3128,19 @@ Installed-Size: 414
 Maintainer: Santiago Vila <sanvila@debian.org>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 7.1wheezy4
+Version: 7.1wheezy5
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base
 Pre-Depends: awk
 Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Filename: pool/main/b/base-files/base-files_7.1wheezy4_amd64.deb
-Size: 78706
+Size: 78738
 MD5sum: eb80d7ee6bd4ba4571b5dd2640dc276c
 Description: Debian base system miscellaneous files
-Description-md5: 6d16337f57b84c4747f56438355b2395
-Tag: admin::configuring, role::app-data, suite::debian
-SHA1: 6b5dfe0104e7de5ee4c2245198b34a449696a00d
-SHA256: 37994a1417b86c91b02d97b6eae3e640af9d829a75f3bf40483c673c00a5987e
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
 
 Package: poppler-data
 Priority: optional
@@ -3635,10 +3636,10 @@ Maintainer: Michael van der Kolff <mvanderkolff@gmail.com>
 Architecture: amd64
 Multi-Arch: same
 Source: jbigkit
-Version: 2.0-2
+Version: 2.0-2+deb7u1
 Depends: libc6 (>= 2.2.5)
 Pre-Depends: multiarch-support
-Size: 32200
+Size: 32598
 Description: JBIGkit libraries
  JBIG-KIT provides a portable library of compression and decompression functions
  with a documented interface that you can include very easily into your image or
@@ -3816,17 +3817,17 @@ Homepage: https://www.gnu.org/software/libidn/
 Package: python2.7-minimal
 Priority: optional
 Section: python
-Installed-Size: 5460
+Installed-Size: 5456
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Source: python2.7
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
 Replaces: python2.7 (<< 2.7.1~rc1-2~)
 Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.0)
 Recommends: python2.7
 Suggests: binfmt-support
 Conflicts: binfmt-support (<< 1.1.2)
-Size: 1782540
+Size: 1784926
 Description: Minimal subset of the Python language (version 2.7)
  This package contains the interpreter and some essential modules.  It can
  be used in the boot process for some basic tasks.
@@ -4552,13 +4553,13 @@ Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.26.0-1+wheezy8
+Version: 7.26.0-1+wheezy9
 Replaces: libcurl2 (<< 1:7.11.2-2), libcurl4
 Depends: libc6 (>= 2.11), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Conflicts: libcurl4
-Size: 330430
+Size: 330580
 Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
  libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
  FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, POP3, POP3S, RTMP,
@@ -5124,15 +5125,15 @@ Homepage: http://linux.thai.net/projects/libthai
 Package: python2.7-dev
 Priority: optional
 Section: python
-Installed-Size: 31092
+Installed-Size: 31099
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Source: python2.7
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
 Replaces: python2.7 (<< 2.7-3)
-Depends: python2.7 (= 2.7.3-6), libpython2.7 (= 2.7.3-6), libexpat1-dev, libssl-dev
+Depends: python2.7 (= 2.7.3-6+deb7u2), libpython2.7 (= 2.7.3-6+deb7u2), libexpat1-dev, libssl-dev
 Recommends: libc6-dev | libc-dev
-Size: 22791454
+Size: 22799136
 Description: Header files and a static library for Python (v2.7)
  Header files, a static library and development tools for building
  Python (v2.7) modules, extending the Python interpreter or embedding
@@ -5529,19 +5530,19 @@ Description: type-safe Signal Framework for C++ - runtime
 Package: openssh-server
 Priority: optional
 Section: net
-Installed-Size: 708
+Installed-Size: 709
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: openssh
-Version: 1:6.0p1-4
+Version: 1:6.0p1-4+deb7u1
 Replaces: openssh-client (<< 1:3.8.1p1-11), ssh, ssh-krb5
 Provides: ssh-server
-Depends: libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps
+Depends: libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4+deb7u1), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps
 Recommends: xauth, ncurses-term, openssh-blacklist, openssh-blacklist-extra
 Suggests: ssh-askpass, rssh, molly-guard, ufw, monkeysphere
 Conflicts: rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7), ssh-nonfree (<< 2), ssh-socks, ssh2
-Size: 339018
+Size: 339722
 Description: secure shell (SSH) server, for secure access from remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working
@@ -5995,10 +5996,10 @@ Installed-Size: 1422
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: all
 Source: openssl
-Version: 1.0.1e-2+deb7u4
+Version: 1.0.1e-2+deb7u7
 Replaces: libssl-dev (<< 1.0.0)
 Breaks: libssl-dev (<< 1.0.0)
-Size: 1197072
+Size: 1202778
 Description: SSL development documentation documentation
  libssl and libcrypto manpages and demo files.
  .
@@ -6124,14 +6125,14 @@ Homepage: http://sources.redhat.com/lvm2/
 Package: libssl-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 6315
+Installed-Size: 6275
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: openssl
-Version: 1.0.1e-2+deb7u4
-Depends: libssl1.0.0 (= 1.0.1e-2+deb7u4), zlib1g-dev
+Version: 1.0.1e-2+deb7u7
+Depends: libssl1.0.0 (= 1.0.1e-2+deb7u7), zlib1g-dev
 Recommends: libssl-doc
-Size: 1750614
+Size: 1744008
 Description: SSL development libraries, header files and documentation
  libssl and libcrypto development libraries, header files and manpages.
  .
@@ -7029,19 +7030,19 @@ SHA256: b21c0282289c394159f912907615128fda26d2c96fc710bd767e2ec1269fded1
 Package: openssh-client
 Priority: standard
 Section: net
-Installed-Size: 2276
+Installed-Size: 2266
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: openssh
-Version: 1:6.0p1-4
+Version: 1:6.0p1-4+deb7u1
 Replaces: ssh, ssh-krb5
 Provides: rsh-client, ssh-client
 Depends: libc6 (>= 2.11), libedit2 (>= 2.11-20080614-1), libgssapi-krb5-2 (>= 1.10+dfsg~), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, adduser (>= 3.10), dpkg (>= 1.7.0), passwd
 Recommends: xauth, openssh-blacklist, openssh-blacklist-extra
 Suggests: ssh-askpass, libpam-ssh, keychain, monkeysphere
 Conflicts: rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7)
-Size: 1024710
+Size: 1025084
 Description: secure shell (SSH) client, for secure access to remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working

@@ -42,7 +42,6 @@
 /usr/share/perl5/Time
 /usr/share/perl5/Time/Zone.pm
 /usr/share/man
-/usr/share/man/man3
 /usr/share/man/man3/Date::Language.3pm.gz
 /usr/share/man/man3/Date::Parse.3pm.gz
 /usr/share/man/man3/Date::Format.3pm.gz

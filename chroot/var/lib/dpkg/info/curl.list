@@ -18,6 +18,7 @@
 /usr/share/doc/curl/BUGS.gz
 /usr/share/doc/curl/TODO.gz
 /usr/share/man
+/usr/share/man/man1
 /usr/share/man/man1/curl.1.gz
 /usr/bin
 /usr/bin/curl

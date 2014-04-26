@@ -361,14 +361,15 @@ Description: X11 miscellaneous micro-utility library
  git://anongit.freedesktop.org/git/xorg/lib/libXmu
 
 Package: libxml2
-Status: install ok installed
+Status: install ok unpacked
 Priority: standard
 Section: libs
-Installed-Size: 1778
+Installed-Size: 1773
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
-Version: 2.8.0+dfsg1-7+nmu2
+Version: 2.8.0+dfsg1-7+nmu3
+Config-Version: 2.8.0+dfsg1-7+nmu2
 Depends: libc6 (>= 2.7), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
 Pre-Depends: multiarch-support
 Recommends: xml-core
@@ -432,15 +433,16 @@ Description: GNU privacy guard - signature verification tool
 Homepage: http://www.gnupg.org
 
 Package: libssl1.0.0
-Status: install ok installed
+Status: install ok unpacked
 Priority: important
 Section: libs
-Installed-Size: 3037
+Installed-Size: 3003
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: openssl
-Version: 1.0.1e-2+deb7u4
+Version: 1.0.1e-2+deb7u7
+Config-Version: 1.0.1e-2+deb7u4
 Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: multiarch-support
 Description: SSL shared libraries
@@ -450,14 +452,15 @@ Description: SSL shared libraries
  It is part of the OpenSSL implementation of SSL.
 
 Package: ssh
-Status: install ok installed
+Status: install ok unpacked
 Priority: extra
 Section: net
 Installed-Size: 29
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Architecture: all
 Source: openssh
-Version: 1:6.0p1-4
+Version: 1:6.0p1-4+deb7u1
+Config-Version: 1:6.0p1-4
 Depends: openssh-client, openssh-server
 Description: secure shell client and server (metapackage)
  This metapackage is a convenient way to install both the OpenSSH client
@@ -752,7 +755,7 @@ Description: Linux Standard Base 4.1 init script functionality
 Homepage: http://www.linuxfoundation.org/collaborate/workgroups/lsb
 
 Package: libcurl3-gnutls
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: libs
 Installed-Size: 580
@@ -760,7 +763,8 @@ Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.26.0-1+wheezy8
+Version: 7.26.0-1+wheezy9
+Config-Version: 7.26.0-1+wheezy8
 Replaces: libcurl4-gnutls
 Depends: libc6 (>= 2.11), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
@@ -1058,16 +1062,17 @@ Description: userspace USB programming library
 Homepage: http://www.linux-usb.org/
 
 Package: libpython2.7
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: libs
 Installed-Size: 3077
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Source: python2.7
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
+Config-Version: 2.7.3-6
 Replaces: python2.7 (<< 2.6)
-Depends: python2.7 (= 2.7.3-6), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.2.0)
+Depends: python2.7 (= 2.7.3-6+deb7u2), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.2.0)
 Description: Shared Python runtime library (version 2.7)
  Version 2.7 of the high-level, interactive object oriented language,
  includes an extensive class library with lots of goodies for
@@ -1400,14 +1405,15 @@ Description: Vi IMproved - Common files
 Homepage: http://www.vim.org/
 
 Package: openssl
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: utils
-Installed-Size: 1081
+Installed-Size: 1008
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1.0.1e-2+deb7u4
-Depends: libc6 (>= 2.7), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
+Version: 1.0.1e-2+deb7u7
+Config-Version: 1.0.1e-2+deb7u4
+Depends: libc6 (>= 2.7), libssl1.0.0 (>= 1.0.1e-2+deb7u5), zlib1g (>= 1:1.1.4)
 Suggests: ca-certificates
 Conffiles:
  /etc/ssl/openssl.cnf 7df26c55291b33344dc15e3935dabaf3
@@ -1463,28 +1469,6 @@ Description: GDK Pixbuf library
   - Fast scaling and compositing of pixbufs.
   - Simple animation loading (ie. animated GIFs)
 Homepage: http://www.gtk.org/
-
-Package: lvm2
-Status: install ok installed
-Priority: optional
-Section: admin
-Installed-Size: 1121
-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Multi-Arch: foreign
-Version: 2.02.95-8
-Depends: libc6 (>= 2.4), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.74), libreadline5 (>= 5.2), libudev0 (>= 0.140), lsb-base, dmsetup (>> 2:1.02.47), initscripts (>= 2.88dsf-13.3)
-Breaks: initramfs-tools (<< 0.99)
-Conffiles:
- /etc/lvm/lvm.conf 6c7803e3803ffc7369b13b4ea62cef8c
- /etc/init.d/lvm2 82aa3ab5c2c317d15b4a479f6bd2cde3
-Description: Linux Logical Volume Manager
- This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
- supports enterprise level volume management of disk and disk subsystems
- by grouping arbitrary disks into volume groups. The total capacity of
- volume groups can be allocated to logical volumes, which are accessed as
- regular block devices.
-Homepage: http://sources.redhat.com/lvm2/
 
 Package: libquadmath0
 Status: install ok installed
@@ -1753,15 +1737,16 @@ Description: Basic TCP/IP networking system
  networking.
 
 Package: libmagic1
-Status: install ok installed
+Status: install ok unpacked
 Priority: standard
 Section: libs
-Installed-Size: 2444
+Installed-Size: 2445
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Multi-Arch: same
 Source: file
-Version: 5.11-2+deb7u1
+Version: 5.11-2+deb7u3
+Config-Version: 5.11-2+deb7u1
 Depends: libc6 (>= 2.8), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Suggests: file
@@ -1874,12 +1859,12 @@ Homepage: http://pam.sourceforge.net/
 Package: tzdata
 Status: install ok installed
 Priority: required
-Section: localization
-Installed-Size: 1463
+Section: libs
+Installed-Size: 1465
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: all
 Multi-Arch: foreign
-Version: 2013i-0wheezy1
+Version: 2014a-0wheezy1
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Provides: tzdata-wheezy
 Depends: debconf (>= 0.5) | debconf-2.0
@@ -2302,15 +2287,16 @@ Description: High-level library for managing Debian package information
  This is the shared library.
 
 Package: linux-libc-dev
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: devel
-Installed-Size: 2920
+Installed-Size: 2793
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 3.2.54-2
+Version: 3.2.57-3
+Config-Version: 3.2.54-2
 Replaces: linux-kernel-headers
 Provides: linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -2438,15 +2424,16 @@ Description: GNU version of the tar archiving utility
  sets of files with others.
 
 Package: file
-Status: install ok installed
+Status: install ok unpacked
 Priority: standard
 Section: utils
 Installed-Size: 109
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 5.11-2+deb7u1
-Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u1), zlib1g (>= 1:1.1.4)
+Version: 5.11-2+deb7u3
+Config-Version: 5.11-2+deb7u1
+Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u3), zlib1g (>= 1:1.1.4)
 Description: Determines file type using "magic" numbers
  File tests each argument in an attempt to classify it. There are three sets of
  tests, performed in this order: filesystem tests, magic number tests, and
@@ -2498,7 +2485,7 @@ Description: report the search path for a class's ISA tree
 Homepage: http://search.cpan.org/dist/Class-ISA/
 
 Package: liblcms2-2
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: libs
 Installed-Size: 341
@@ -2506,7 +2493,8 @@ Maintainer: Oleksandr Moskalenko <malex@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: lcms2
-Version: 2.2+git20110628-2.2
+Version: 2.2+git20110628-2.2+deb7u1
+Config-Version: 2.2+git20110628-2.2
 Depends: libc6 (>= 2.7)
 Pre-Depends: multiarch-support
 Suggests: liblcms2-utils
@@ -2701,16 +2689,17 @@ Description: Traces the route taken by packets over an IPv4/IPv6 network
 Homepage: http://traceroute.sourceforge.net/
 
 Package: python2.7
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: python
 Installed-Size: 8841
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
+Config-Version: 2.7.3-6
 Replaces: python-profiler (<= 2.7.1-2)
 Provides: python-argparse, python2.7-argparse, python2.7-celementtree, python2.7-cjkcodecs, python2.7-ctypes, python2.7-elementtree, python2.7-profiler, python2.7-wsgiref
-Depends: python2.7-minimal (= 2.7.3-6), mime-support, libbz2-1.0, libc6 (>= 2.11), libdb5.1, libexpat1 (>= 2.1~beta3), libgcc1 (>= 1:4.1.1), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5
+Depends: python2.7-minimal (= 2.7.3-6+deb7u2), mime-support, libbz2-1.0, libc6 (>= 2.11), libdb5.1, libexpat1 (>= 2.1~beta3), libgcc1 (>= 1:4.1.1), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5
 Suggests: python2.7-doc, binutils
 Breaks: python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)
 Conflicts: python-profiler (<= 2.7.1-2)
@@ -2836,16 +2825,17 @@ Description: Windows metafile conversion library
  This package contains the shared library.
 
 Package: curl
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: web
 Installed-Size: 364
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
-Version: 7.26.0-1+wheezy8
+Version: 7.26.0-1+wheezy9
+Config-Version: 7.26.0-1+wheezy8
 Replaces: curl-ssl
 Provides: curl-ssl
-Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy8), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy9), zlib1g (>= 1:1.1.4)
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
  DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, POP3, POP3S,
@@ -2866,13 +2856,13 @@ Installed-Size: 414
 Maintainer: Santiago Vila <sanvila@debian.org>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 7.1wheezy4
+Version: 7.1wheezy5
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base
 Pre-Depends: awk
 Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Conffiles:
- /etc/debian_version 49a8137046ea585514da374edc475322
+ /etc/debian_version 183d476e5f65a2f5252a5043ba3688c0
  /etc/dpkg/origins/debian 731423fa8ba067262f8ef37882d1e742
  /etc/host.conf 4eb63731c9f5e30903ac4fc07a7fe3d6
  /etc/issue a18897477f3fb6f0115ea42f61ffc80a
@@ -3384,7 +3374,7 @@ Description: Layout and rendering of internationalized text
  This package contains the shared libraries.
 
 Package: libjbig0
-Status: install ok installed
+Status: install ok unpacked
 Priority: extra
 Section: libs
 Installed-Size: 96
@@ -3392,7 +3382,8 @@ Maintainer: Michael van der Kolff <mvanderkolff@gmail.com>
 Architecture: amd64
 Multi-Arch: same
 Source: jbigkit
-Version: 2.0-2
+Version: 2.0-2+deb7u1
+Config-Version: 2.0-2
 Depends: libc6 (>= 2.2.5)
 Pre-Depends: multiarch-support
 Description: JBIGkit libraries
@@ -3560,14 +3551,15 @@ Description: GNU Libidn library, implementation of IETF IDN specifications
 Homepage: https://www.gnu.org/software/libidn/
 
 Package: python2.7-minimal
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: python
-Installed-Size: 5460
+Installed-Size: 5456
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Source: python2.7
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
+Config-Version: 2.7.3-6
 Replaces: python2.7 (<< 2.7.1~rc1-2~)
 Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.0)
 Recommends: python2.7
@@ -4250,7 +4242,7 @@ Description: runtime files for the OpenEXR image library
 Homepage: http://www.openexr.com
 
 Package: libcurl3
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: libs
 Installed-Size: 601
@@ -4258,7 +4250,8 @@ Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.26.0-1+wheezy8
+Version: 7.26.0-1+wheezy9
+Config-Version: 7.26.0-1+wheezy8
 Replaces: libcurl2 (<< 1:7.11.2-2), libcurl4
 Depends: libc6 (>= 2.11), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
@@ -4827,16 +4820,17 @@ Description: Double-array trie library
 Homepage: http://linux.thai.net/projects/libthai
 
 Package: python2.7-dev
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: python
-Installed-Size: 31092
+Installed-Size: 31099
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Source: python2.7
-Version: 2.7.3-6
+Version: 2.7.3-6+deb7u2
+Config-Version: 2.7.3-6
 Replaces: python2.7 (<< 2.7-3)
-Depends: python2.7 (= 2.7.3-6), libpython2.7 (= 2.7.3-6), libexpat1-dev, libssl-dev
+Depends: python2.7 (= 2.7.3-6+deb7u2), libpython2.7 (= 2.7.3-6+deb7u2), libexpat1-dev, libssl-dev
 Recommends: libc6-dev | libc-dev
 Description: Header files and a static library for Python (v2.7)
  Header files, a static library and development tools for building
@@ -5197,27 +5191,28 @@ Description: type-safe Signal Framework for C++ - runtime
  run software which depends on it.
 
 Package: openssh-server
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: net
-Installed-Size: 708
+Installed-Size: 709
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: openssh
-Version: 1:6.0p1-4
+Version: 1:6.0p1-4+deb7u1
+Config-Version: 1:6.0p1-4
 Replaces: openssh-client (<< 1:3.8.1p1-11), ssh, ssh-krb5
 Provides: ssh-server
-Depends: libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps
+Depends: libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4+deb7u1), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps
 Recommends: xauth, ncurses-term, openssh-blacklist, openssh-blacklist-extra
 Suggests: ssh-askpass, rssh, molly-guard, ufw, monkeysphere
 Conflicts: rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7), ssh-nonfree (<< 2), ssh-socks, ssh2
 Conffiles:
- /etc/init.d/ssh 33017d7ec97eda623412c3fd05dedb8f
- /etc/default/ssh 500e3cf069fe9a7b9936108eb9d9c035
- /etc/network/if-up.d/openssh-server f9d5bc239ec0720cb8ad6e1455fbf21e
- /etc/ufw/applications.d/openssh-server 486b78d54b93cc9fdc950c1d52ff479e
  /etc/pam.d/sshd ee93e13ec6aa3f3120c6939a2880a5b6
+ /etc/ufw/applications.d/openssh-server 486b78d54b93cc9fdc950c1d52ff479e
+ /etc/network/if-up.d/openssh-server f9d5bc239ec0720cb8ad6e1455fbf21e
+ /etc/default/ssh 500e3cf069fe9a7b9936108eb9d9c035
+ /etc/init.d/ssh 33017d7ec97eda623412c3fd05dedb8f
 Description: secure shell (SSH) server, for secure access from remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working
@@ -5600,34 +5595,6 @@ Description: terminal-based package manager
  and housebroken.
 Homepage: http://aptitude.alioth.debian.org/
 
-Package: mdadm
-Status: install ok installed
-Priority: optional
-Section: admin
-Installed-Size: 1042
-Maintainer: Debian mdadm maintainers <pkg-mdadm-devel@lists.alioth.debian.org>
-Architecture: amd64
-Version: 3.2.5-5
-Replaces: mdctl
-Depends: libc6 (>= 2.3.3), udev | makedev, debconf (>= 1.4.72), lsb-base (>= 3.1-6), initscripts (>= 2.88dsf-13.3)
-Recommends: default-mta | mail-transport-agent, module-init-tools
-Breaks: initramfs-tools (<< 0.65), mdctl (<< 0.7.2), raidtools2 (<< 1.00.3-12.1)
-Conffiles:
- /etc/init.d/mdadm-raid 43f56540a30c0b4a66d0c11642872acf
- /etc/init.d/mdadm-waitidle ff8f134084409dbbf70d6fff2d35f729
- /etc/init.d/mdadm 33b52905eb26a37b736bef9a18a6c5a9
- /etc/cron.daily/mdadm 04839987aec89ae101d5e1f47abd2be4
- /etc/cron.d/mdadm e2384a232bdaaf9ec65173d5282e40fe
- /etc/logcheck/ignore.d.server/mdadm 5eeaf5c5c7dc0291a986e43004dfd495
- /etc/logcheck/violations.d/mdadm efd87cec251921ce0642171eae5f3b73
-Description: tool to administer Linux MD arrays (software RAID)
- The mdadm utility can be used to create, manage, and monitor MD
- (multi-disk) arrays for software RAID or multipath I/O.
- .
- This package automatically configures mdadm to assemble arrays during the
- system startup process. If not needed, this functionality can be disabled.
-Homepage: http://neil.brown.name/blog/mdadm
-
 Package: libncursesw5
 Status: install ok installed
 Priority: important
@@ -5671,14 +5638,15 @@ Description: module using libc functions for internationalization in Perl
 Homepage: http://search.cpan.org/dist/gettext/gettext.pm
 
 Package: libssl-doc
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: doc
 Installed-Size: 1422
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: all
 Source: openssl
-Version: 1.0.1e-2+deb7u4
+Version: 1.0.1e-2+deb7u7
+Config-Version: 1.0.1e-2+deb7u4
 Replaces: libssl-dev (<< 1.0.0)
 Breaks: libssl-dev (<< 1.0.0)
 Description: SSL development documentation documentation
@@ -5802,15 +5770,16 @@ Description: Linux Kernel Device Mapper userspace library
 Homepage: http://sources.redhat.com/lvm2/
 
 Package: libssl-dev
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: libdevel
-Installed-Size: 6315
+Installed-Size: 6275
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: openssl
-Version: 1.0.1e-2+deb7u4
-Depends: libssl1.0.0 (= 1.0.1e-2+deb7u4), zlib1g-dev
+Version: 1.0.1e-2+deb7u7
+Config-Version: 1.0.1e-2+deb7u4
+Depends: libssl1.0.0 (= 1.0.1e-2+deb7u7), zlib1g-dev
 Recommends: libssl-doc
 Description: SSL development libraries, header files and documentation
  libssl and libcrypto development libraries, header files and manpages.
@@ -6699,15 +6668,16 @@ Description: SELinux runtime shared libraries
  version supported by the kernel) when loading policy.
 
 Package: openssh-client
-Status: install ok installed
+Status: install ok unpacked
 Priority: standard
 Section: net
-Installed-Size: 2276
+Installed-Size: 2266
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: openssh
-Version: 1:6.0p1-4
+Version: 1:6.0p1-4+deb7u1
+Config-Version: 1:6.0p1-4
 Replaces: ssh, ssh-krb5
 Provides: rsh-client, ssh-client
 Depends: libc6 (>= 2.11), libedit2 (>= 2.11-20080614-1), libgssapi-krb5-2 (>= 1.10+dfsg~), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, adduser (>= 3.10), dpkg (>= 1.7.0), passwd
@@ -6715,8 +6685,8 @@ Recommends: xauth, openssh-blacklist, openssh-blacklist-extra
 Suggests: ssh-askpass, libpam-ssh, keychain, monkeysphere
 Conflicts: rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7)
 Conffiles:
- /etc/ssh/moduli 72ced8f8fbc59f318ad00504de5b4384
  /etc/ssh/ssh_config a7a6e6ef00bcd077b9b5e3e1b744fd30
+ /etc/ssh/moduli 72ced8f8fbc59f318ad00504de5b4384
 Description: secure shell (SSH) client, for secure access to remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working

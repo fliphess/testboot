@@ -1,6 +1,6 @@
 #!/bin/bash
 NAME=$1
-FILE="/var/www/fs/${NAME}.fs.squashfs"
+FILE="../${NAME}.fs.squashfs"
 
 if [ -z "$NAME" ] || [ "$NAME" = "" ] ;
 then

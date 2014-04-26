@@ -36,7 +36,6 @@
 /usr/share/lintian/overrides
 /usr/share/lintian/overrides/libdpkg-perl
 /usr/share/man
-/usr/share/man/man3
 /usr/share/man/man3/Dpkg::IPC.3.gz
 /usr/share/man/man3/Dpkg::Changelog::Entry::Debian.3.gz
 /usr/share/man/man3/Dpkg::Checksums.3.gz

@@ -257,7 +257,7 @@ b5948e858d0a8123c4cfca40492015e7  usr/include/linux/matroxfb.h
 c415b3db40007e61514050c54bcce753  usr/include/linux/media.h
 b8dcddfea1273d4d37d8c0fecdc5f013  usr/include/linux/mempolicy.h
 8b979400b34c57837af30e52e7fdb1b7  usr/include/linux/meye.h
-110e20f32a310251716432c9a1d2bd78  usr/include/linux/mii.h
+6ef06e0099f6d3ec5ad4d640f61d93a4  usr/include/linux/mii.h
 b2a46e28a687daaa84695e604639be1d  usr/include/linux/minix_fs.h
 1e5391fe13a93424869d4101d09a6ee3  usr/include/linux/mman.h
 a693d0b1b35ac4211e433f7c6a300956  usr/include/linux/mmc/ioctl.h
@@ -430,7 +430,7 @@ ded29ec84bd3707bac1a9c0cf7a6a4a3  usr/include/linux/omapfb.h
 363b2155e75f32d2a72049ea069d96e7  usr/include/linux/parport.h
 2fad616a0d3c93497c9e78913d2176c6  usr/include/linux/patchkey.h
 556e9d9e5d4b9493e11dcca5be10d84b  usr/include/linux/pci.h
-ed3bd7429355afdb54aca2b50a3a2775  usr/include/linux/pci_regs.h
+b0b4b072b77b1779243c3d667be10c18  usr/include/linux/pci_regs.h
 edf4fc28ca837f1d516f83443165d88f  usr/include/linux/perf_event.h
 1efaa8d8a614bd28c3e41a7e0e0bae98  usr/include/linux/personality.h
 20361c61f778e9d9c678579bf851d26e  usr/include/linux/pfkeyv2.h
@@ -547,7 +547,7 @@ f92dca1cd90c50e98528bad73eab1640  usr/include/linux/usbdevice_fs.h
 b95636d79f441962e80de741a091be3d  usr/include/linux/uvcvideo.h
 0b1f719dc47dba1bc949060deb647e19  usr/include/linux/v4l2-mediabus.h
 d240d4d12a960057902bc3f4216e34de  usr/include/linux/v4l2-subdev.h
-7e8461ea367722eac1e33145ec0b3a22  usr/include/linux/version.h
+7e32ecdae26df3ed1ead071cb6ea3857  usr/include/linux/version.h
 051654f3bc5de6b714561eee6cd4cf71  usr/include/linux/veth.h
 72d60c231e9f9978b0afe73fbb5661f2  usr/include/linux/vhost.h
 f84953910ae3e19df3eb2115c53f7552  usr/include/linux/videodev2.h
@@ -650,6 +650,8 @@ e15dffc33e75d62fcd50cf155c53ae12  usr/include/x86_64-linux-gnu/asm/unistd_64.h
 d6245cb0e6e090c01ad183c3c4d9ae6b  usr/include/x86_64-linux-gnu/asm/vm86.h
 3f5c8d814ac9af1e6ceadc1c2967f026  usr/include/x86_64-linux-gnu/asm/vsyscall.h
 eb8d9b7615a9734fbf13ce3116d800c6  usr/include/xen/evtchn.h
+a4b80c706017451d21c7827e23df3e04  usr/include/xen/gntalloc.h
+184310ddd2dd4a236437107887a3cdb3  usr/include/xen/gntdev.h
 d448ff4cf7a2ed361b57f437ca248dec  usr/include/xen/privcmd.h
-70096fda7ee65c9f288b05c85264387f  usr/share/doc/linux-libc-dev/changelog.Debian.gz
+5ea34d8d904b5a703b93f820d510cbe4  usr/share/doc/linux-libc-dev/changelog.Debian.gz
 2eb057c63eebecaf4eb99b4c92d7e80d  usr/share/doc/linux-libc-dev/copyright

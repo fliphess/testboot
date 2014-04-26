@@ -162,6 +162,3 @@ Text creation and manipulation
 * Diffutils: (diffutils).       Comparing and merging files.
 * grep: (grep).                 Print lines matching a pattern.
 * sed: (sed).                   Stream EDitor.  
-
-Typesetting
-* Groff: (groff).               The GNU troff document formatting system.

@@ -153,9 +153,7 @@
 /usr/share/man/man1/git-show-branch.1.gz
 /usr/share/man/man1/git-remote-helpers.1.gz
 /usr/share/man/man1/git-whatchanged.1.gz
-/usr/share/man/man3
 /usr/share/man/man3/Git.3pm.gz
-/usr/share/man/man7
 /usr/share/man/man7/gitnamespaces.7.gz
 /usr/share/man/man7/gitcli.7.gz
 /usr/share/man/man7/gitcvs-migration.7.gz

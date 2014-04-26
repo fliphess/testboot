@@ -1,12 +1,12 @@
-7eb70d38fc6bb09265c834c3109bf839  usr/bin/python2.7
-478723cf14441d842d6bb8a8b796f856  usr/include/python2.7/pyconfig.h
+9d6ffa5c2c1d97ce544a2969f66d70fd  usr/bin/python2.7
+2355dc6ee1c8d6f6ee981715a52413f4  usr/include/python2.7/pyconfig.h
 c1a16e098a25d74be9d7c781e2f16ccd  usr/lib/python2.7/ConfigParser.py
 71686dbb69a0544ed2b4d6f5e68b069f  usr/lib/python2.7/StringIO.py
 c392a997cab4c306fc25211d676b23ea  usr/lib/python2.7/UserDict.py
 fb6df9f20f7d65a0d167912c3c24e978  usr/lib/python2.7/__future__.py
 c97115af9433c1c8210abe3357f2cc9e  usr/lib/python2.7/_abcoll.py
 85cc53d9854440abcf03cb9d81272175  usr/lib/python2.7/_sysconfigdata.py
-e5780d028865755b979975dd1d7e3a24  usr/lib/python2.7/_sysconfigdata_nd.py
+0fcf0c82ac1452e0ac58f0b57ef132a6  usr/lib/python2.7/_sysconfigdata_nd.py
 271851e14e6a7da83f339490820fe1e9  usr/lib/python2.7/_weakrefset.py
 60bd0ad6843660657097ab6e26ce5288  usr/lib/python2.7/abc.py
 1b72a55741b58bbc34f0904861d5aaa8  usr/lib/python2.7/atexit.py
@@ -15,7 +15,7 @@ e5780d028865755b979975dd1d7e3a24  usr/lib/python2.7/_sysconfigdata_nd.py
 696baaac4728ba1a100419b4f696a4dd  usr/lib/python2.7/codecs.py
 2d019ac0fba1114cf2c769c0b324d477  usr/lib/python2.7/collections.py
 4f73989ca7e8d90e9bedb20703acb4ee  usr/lib/python2.7/compileall.py
-d629111bb6327babea161de90bbb2198  usr/lib/python2.7/config/Makefile
+7156a312f09dcd536b3720c4a08c5aaa  usr/lib/python2.7/config/Makefile
 e6dd33e9620f06cad4559c647276a5bd  usr/lib/python2.7/copy.py
 06a633f065f2e1cb6bbaeed865bca9a2  usr/lib/python2.7/copy_reg.py
 a03e021c3623542e16c47df9799ff8a5  usr/lib/python2.7/dis.py
@@ -124,8 +124,8 @@ b1f35da5698f78543691480bd6e1ae75  usr/lib/python2.7/genericpath.py
 faede6b43060ce5f385c92dfaae86d12  usr/lib/python2.7/heapq.py
 cfa24acb1cdda05489b4e8ccc574eb4a  usr/lib/python2.7/inspect.py
 820a55edacac687313cd4c737ae302d1  usr/lib/python2.7/keyword.py
-23cfea263401efa56eff187399eba023  usr/lib/python2.7/lib-dynload/_hashlib.so
-5aba021e7271991bcfaeda9f072e5813  usr/lib/python2.7/lib-dynload/_ssl.so
+3ec4a0032093d26cb3cea08e3d15626b  usr/lib/python2.7/lib-dynload/_hashlib.so
+9e762362dd08265006c31135988e016d  usr/lib/python2.7/lib-dynload/_ssl.so
 7ae71d794b5b1e54e66f1068c452e499  usr/lib/python2.7/linecache.py
 0a19fbe56ac77e147dde5086423cb92b  usr/lib/python2.7/logging/__init__.py
 663cd81a603ebecb3535c779f15a371b  usr/lib/python2.7/logging/config.py
@@ -169,6 +169,6 @@ a0eb9b4a8c53f54bdfc880b06b477668  usr/lib/python2.7/warnings.py
 e7f0eba31623bd874f1eb5c9c33b9c8e  usr/lib/python2.7/weakref.py
 0836ce5ee02bcfa871d3d91eb5f7b7e8  usr/share/binfmts/python2.7
 28101884f7d6f910140849011f58d382  usr/share/doc/python2.7-minimal/README.Debian
-82204a3b8608543e978691a383e31a48  usr/share/doc/python2.7-minimal/changelog.Debian.gz
+28b504969b927d2397b36bdab2e623fc  usr/share/doc/python2.7-minimal/changelog.Debian.gz
 92860200e8fb75cba42fe3792e55ad73  usr/share/doc/python2.7-minimal/copyright
 e23ec60c1d1ed03bae935098f0cee76d  usr/share/man/man1/python2.7.1.gz

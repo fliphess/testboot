@@ -7,7 +7,7 @@ then
     exit 0
 fi
 
-FILE="/var/www/iso/${NAME}.iso"
+FILE="../${NAME}.iso"
 DIR="$( dirname $0 )/../binary"
 test -d $DIR || { echo "$DIR dir not found!"; exit 1; }
 

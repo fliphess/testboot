@@ -1,5 +1,5 @@
-9e9be444fcc9ac0c8e8149694aec92cb  usr/lib/openssh/sftp-server
-e3305c8ae035d81d75cf0d4ea2ba1131  usr/sbin/sshd
+0e801a3fbb4d69aa5d8313d280ca4c9c  usr/lib/openssh/sftp-server
+c12da4d5a57320c1a3f8c9a425fd5b87  usr/sbin/sshd
 cd30441df7f232784399d67399d6305b  usr/share/doc/openssh-client/examples/sshd_config
 8c5592e0d522fa0f8f55f3c104479ef5  usr/share/lintian/overrides/openssh-server
 6e83792e63f1cef8b78876e6bcd2297b  usr/share/man/man5/sshd_config.5.gz
